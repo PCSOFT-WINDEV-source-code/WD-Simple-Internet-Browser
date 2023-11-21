@@ -1,0 +1,2094 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_BROWSER
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_BROWSER
+ identifier : 0x203fd6031589e7bf
+ internal_properties : CAAAAAgAAAChAiWggKvEXh5bunidNRwr1wy3Q1qP8P6tweg9oLzXVDIckq0LwZcs0u4ODzVxa+im7B/iG91me4Zz2Ysb8g1/2vTgFrYNVSK3Ak1QuEd4ZUF32uP3xmnPx681McbbDNbnMBLDBwaLJFn/I249+WKJGD+FE+8xsqUkGJ83Wjvis9GIfQWkvtbkBeucaOzI+P7Xdl6W3Im5xLNpw9SHDtQCD9th1/kaZbJNhi51BhPVTYRZym9YQaSeue3LiTr0RYQ/ejOpcOVZPmlWjKhai2TwVB4KYPpqkt2ac2ancIWF/G12oWGUKdcLi6U8eECQ9f3C7/l/5Jdp88hCTlCdH3F8GjTR7ywGC9auYs3SgBuiEcwyih2JvyI+qjmBQVrNBi/Z2wEyZb2+uhdGQQ46+tjd0ylwV149eCPMiOMwn/f0Tw2gaSOaWN4WBQdGhMiXbvnZZEP36r21uWl72tGxg++9DjAhfximJj6XG8rdehimN+1JJgp1HaRaR7sNGt2BjDD62ogIU9hAL8u4nwSfXoNr4ytiNW7DydIrW0IAmm8nev+SFuxU3yTyZ40cGRiiwAH5f8nLEVzOPo+T/t5Xndggeksu/PAnYSa8GZnB7hAfQlbyCacTkPtVgtZNSOd3iKrMdWmVobBpeaN0KezNmjZkFTzHcYxIYOexxcRocgLpYAcfr35P201TFt+BUJ2m+gScqlWnacu2By01a9yrJVnFt40j3Cc6vfRO6Y8kQn76RqnDsJw7tBU3vVjFC5AaptFv+36ufkWFgTFUK83iqtQ=
+ properties :
+  width : 796
+  height : 600
+ controls :
+  -
+    name : IW_BROWSER
+    identifier : 0x203fd60315aae7bf
+    internal_properties : CAAAAAgAAAB2bWujx7lXDeYjl7TZcdAaUA2xy7AtFM3LMbZdWaIYQA1JvrHiSgVjculyCQNosSwzmnruyCS0VM3XoAdtTjWJ1ZgMzK68FJXdEX3gq1UpPBE1i9ylO7Yfcq9pLK6c0FyUsLWv7TPIJmpo21pbI41aOc2dH/w4fo5onb/71XvK1v8mSS9ZCEutinYzZB6s7+3Iuyehotu2KhGtpyIm7xOXpcZl5R6VJMnX64uMd61sjb2AUJcz566DpBM7UAlMh80OYm4PtkT9OddZ2KVFyoN3qguK2avsBFgwRMFdmrQGhcbf3DZ4H79WI/KQoPI7HZ0LwfS3c/X8c/hjNkrgTyLDs40Tf5wLe974WD8LwXknG8IBlwkDVw4SY2SfFdyi3yG3/MjEOEjhdXAAbDOu6v/FH/cZnIWGMwsBirITyv4ohKTyh/ifaIC5gcPmkwI/1moaQKBhjkX+nmmyeOgCa9/yvqkH0dQSYuFKH9c=
+    properties :
+     width : 796
+     height : 600
+    controls :
+     -
+       name : BTN_PREVIOUS
+       identifier : 0x203fd60315ace7bf
+       internal_properties : CAAAAAgAAABRDnqTvav5djerxtKyAIARQdlXusS0ejs8fXmx2B3CX0JXxaeOA5VYOHFZUHvlzE/T2RI6ANegro/OwfR7UwGesKoO9v7RIB0iya+6aw8TjCK2+GWfeN1jqmClS3OEhKavIDBCqg2S0PGGTifbXGgNuZv1jWyjtSL8O4UmgeEPIj5DcmtvR9n7ARcHJ6KLUmaEXPRB44z3UUQBkypd0d/yyHI/TcmlDoaVMk1E4W2MDqQ5Mbdq1+tNsq1hZ2C/wQZbNvcRpZ606EFVwKyTg11DcI1MU5u8bXJ0PojddB5IiB64Hp3nb/1t3PzLQIFj08h05SuyIgmj+BIpjO4rJO3BMPtiUIG8E1d7CQSEb3f64OEV8rHQWYcDBOIh28/fx9SXq9J+cVzRK4VJ2GbAN0RcphtON5tiK3LQt2y6wRtPxciGEWjT9rAVf/pjlfxfOke0WfsX4wpll6RAuVXcbAP3MWAOPAC1mR0Ns2b4g7h7RslFitMSjwXQbubyGGLK3pxBKM+Z+cngiTODYh1syHcx1Z+6aVQ+53JXyxVnzuMhBtMUIzhf4vUdyoVVe2Y+aoL4VW5Zeho0XmE7jLHWGdAi2GhEGl+p2TKYk3MeehH3SKAOKo60QVXs/7kyDzNm2T1eq2yhLoxXHjOcJvcKx6zVFQswOm0Dw1qs/wrf+jKpnI/f7T/XH+w5ss7LuupmNmMBDD6wVW/jbb2ziNE+6bKj+9NKX5/GVfEzirkNs2IKpXCwGKdEHNyLE1lCwg/iFM9pFSdOsTJklBLgmF27IzrtQi1TQUKVstUrzMRgIno/yb88dK16ttyLITaqSk7IUiS/4gsVVtT/C2telEAbSahN/lceCEmhS3h060VCuB2e/RsABnodFO83+orkXqELpGsIJRr2W6yN+Y1Ifq4uxOoL8v58lH+aHWx+iciV3zVhMZ6HNvM8/4kKvHYOomeQjrEuJlJCVx/helH8vomZMol0rKLbjiC4PNQ4Vs1Gj91G1Q==
+       properties :
+        x : 8
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAACLAMzwG5og3zJCAw12fh7L6jwCsCG4KJkJgjT69qk/2djF/VVse7G/ioH625XkOaRLbyl3jCXaP7AZDSa/x5d0RamdBYQTLbMZwo7TDfuCKcP4qdPN622UxU771XOrWvzhjfoYOlv3ngpM97ANUEJelcTYiNJP3E1un0pDN2cEBw==
+           code : |1-
+            
+            // Indicates the URL change source
+            __Source = SourceHistory
+            
+            // Store the new history cursor
+            __HistoryIndex --
+            
+            // If the minimum has been reached 
+            if __HistoryIndex <= 1 then
+            	
+            	// Disables "Back"
+            	__HistoryIndex		= 1
+            	BTN_PREVIOUS.Grayed	= True
+            end
+            
+            // "Next" feature supported if there are other elements after the index
+            BTN_NEXT.Grayed	= ( __HistoryIndex >= __LocalHistory.Count )
+            
+            // Previous page
+            IW_BROWSER.URL	= __LocalHistory[ __HistoryIndex ].URL
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_NEXT
+       identifier : 0x203fd60315ade7bf
+       internal_properties : CAAAAAgAAACruh/1SqfAFONJO8qV/1pk5nnK/Tl+S0GwBEI/zl8S327O5GKTJEitG2hYuPejaYZiQ+xQIGn7+O23Jox7pgoriejc4xVZ0e6R+uRLO4w4LGQicFwwbTbLk7jNipc3An6rqhcfH9oQF37BkEVWNwm+GiSZf/io117NmnVLxNqbR2QOzZX1NrQmEWmghhuESy+12DmdkwHUYgUi70Ik1dfGpkvqme8pxdu+qEwBbAAmFrm7FxtFO76AXYVrtHI4LXv74mvXVEvudxvs0lunNRk2BbHw5HIthSNtaRfXAXTCrNmsiwZ5JZMekbYna+l9ZA30+F2P/gLv94vNozTSAIMHyZlCg/74qayXUkjwHuYsThHUEj7/h1VH1+k4UED/7S5Hvd3gVHxDSfZJdlJLIecJQJI4J1FM23bH1b5u0GoX3hAZk3cBawNmoQkZpyArzSAdTnzaXRBMomtNrlmmAjpXZOayXlgB1Sk5tjGn9Vw1jXsoD+4ydlgxd9dHEcMQ1/1W3BdfBQ/90DMdzPjJ6dzeEmnfkR9sjlN4DvoCLCG2sg9Ga4wH13yC7Ve0BwUpO9PLqeRZNsyMBI8zWTWZdMQD/9Zgldm5IFgh1rR63XLEy1xGqvXQKrMcneMDPytIpRVHNFoXNvcsmK8QBM7Z0C91Mp+ak7IC+lFyfyjxUOvEOC/GaFIy752kgbzp4Edop3H1BAC77YT/Hy1ojrrpR5v55wEPBH1HrQHjTaSBgl5s5qyjnp4KZStr1uVSTawOJJS8pkBPs2J/WVZphDBrVC0BUZA+D7zSuPl2YRenlvOPkuBvfN8Fa0ukBXrSt+oWnlaQmJHO3jkfGXTw3sEx+tnNj96svcK/Ip5DRiKwzvXWjCwOLhGoNOsX1dao5bcfwkQS9/wqo7tienX+KKFU01sZykmVHdyYcnVyt2p21M+NOLCmY19uInkM8XmBSr0l4EJiUnAeATatGgTZ8Ztxjp6vD+4PDmio/56rmqI=
+       properties :
+        x : 42
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAACNZ1jT+9l4AhVW85zQu84f1cdW4H4rz9f1FA/yvKEJyVeikKT1Lh3dtvWTmiAOcyRFiLhYZt6PQ0fu7Y5n+ZXtJBgRfFhRwYMpi/81RUN/ExIIUVAR1Aua2cmqJS5a6tl4gPSCLQLU+P7QcSo=
+           code : |1-
+            
+            // Indicates the URL change source
+            __Source = SourceHistory
+            
+            // Store the new history cursor
+            __HistoryIndex ++
+            
+            // If the minimum has been reached 
+            if __HistoryIndex >= __LocalHistory.Count then
+            	
+            	// Disables 'Next'
+            	__HistoryIndex	= __LocalHistory.Count
+            	BTN_NEXT.Grayed	= True
+            end
+            
+            // "Back" feature supported if there are other elements before the index
+            BTN_PREVIOUS.Grayed	= not ( __LocalHistory.Count >= __HistoryIndex )
+            
+            // Next page
+            IW_BROWSER.URL		= __LocalHistory[ __HistoryIndex ].URL
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_REFRESH
+       identifier : 0x203fd60315aee7bf
+       internal_properties : CAAAAAgAAACd00//82R/erVCIy28fjsADD2ShDS9M4UupD2fkoTggwZ6DX1y7pPytKLlE+sKtuZ99FV9tGxIZ4cZnnBK2ixtLGE4wCHwEfY/gkdxRsg/sSuijqu7KX2fGDUtCLecIu2IMw14hc8u+lUw9xss5e6CWmN6kZFA098hMgT9iHe8I7Hxvd4UQC7BK51EgMpsjJOtVobNxrpPrrpQrptdQIOpMwXwWht4vECp2OUx7almzhWCpVQIKOMY+yLBkvg5Yt7w8SIrvMK04sNkVlag3BwOBa9dl0/I6UwiUp8OGFHSa3zVFv0mXxJ33262lACQSipJ1mHZKY0HN7VoOsohO4gVo4koZ4drMliTitkQLGy9jUMG/1xgG6pxCHQ17jfN6BDazjvHxkVA0KOIYmB8W7CwlSaiQK3UwluraHwS3QtSjl2FfLG2OiQwSSQRM72lIU+ya8bF/9GxPzNzKEE/SsopKBVrd7Jt23V6NoPQBTbjKPdU4ZHy8Tiouw+z0sxLz+lEO8PEf33kq0amyzNQklQcbEWc4267LOzPzBlmWEP6SvDwwNOWu0Mqe1xBmUJFcb8iIhwEsf+l7M4wy8dwUyqJ+X2XzDkf+2dgGxxNxw+ildin25pjkbhQp6qPm3n/q6I75BYp/2qp0K3PIyuKBqM1aVkpzJh3tGgNuzn5GH0EA2S81DgI0SjuuJACthLh0CgHFBot9cGUWmceOREv3+XP6p3NRhil5RR0ezh7QRa2MhWJwfSV+tV55t1/Hd5hGePKEkQl5cInCDPaSMDP6+R7Y57ExNXuWVntEWB+AnQui2gry0gstJr+cGzERsxcxjon0pg0xbon7PPDhJasXpWm0tehb5OBfuqXzMNKzhuDHeORZbmyjpR6PD999wqVr3c+OvRTg0l0VG5v61Pt/k3B8LXuF6BmslBFr5W7r2BPy809PRmf1tpqNH2XOHi35v8XZKUN5YO/NzD5gHWVBqiwLZWNqvtlToufWkCKY1o0FdByGTgCWQ==
+       properties :
+        x : 76
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Indicates the URL change source
+            __Source = SourceHistory
+            
+            // We are on a system page
+            if EDT_BRW [= Prefix_System_URL then
+            	
+            	// Restarts the system page
+            	BTN_BRW_SEARCH.ExecuteProcess(trtClick)
+            	
+            else
+            	
+            	// Refreshes the page
+            	HTM_BROWSER.Navigate(htmlRefresh)
+            end
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_STOP
+       identifier : 0x203fd60315afe7bf
+       internal_properties : CAAAAAgAAADkkymQq1NFVl2SFwWSxN+bcpORTfilZj+Y1DxEHGt7faMlin0vM7ryuShXSJ+4IrPWJSzI2bwz41OS4KpWuz8o0UrF3s0uLdDngLbbOiBIuNCQUszk7JmLCcs4E/Nxf+QrBlqXnZrCalEWh7/TASsnjgji97PpCVwGZDPamVexRwxIxPwGsZS42N1YLUkwFE7PfCm9VHWIX8VfDkLa/GUzvPvh6awuhPLZLQ/ARUul9giYsLhnp5G9tvqNYfnh7WY+SKeHSPsiM0c6eJbo5ANhKpvOFL75Zg6QRS0uDrjjCdrTJBqWNY7OP0oRmRE0SaDweLLNVNBuBiAyL54uZ6Ect7NGhPY/paVRhVDXkPPubXa73QCa7AE0qK/Xg/31RcM0xOwBukN640VsTKakAsaOwvGT9oIydRudU0zR7tafzCVOhwXz2qdBBwJ+vUfudHJ+dOkB5FEpO6LbXXw9vI5K1rr75KdthPKSPUonop3H+Wty+QnFoYatzd03cIeWFY2J4a3Oqmd1RpyG0biqvH6kkFVos3b8ZjbkQ0umM1xKjEGzZHgb6asGCFNVX9IgstwKFjfOYxP8Nh9XjxSGmxb72ZcpfiiBs8p5PLnR8B+UpSqF9s+kYERBhZADfIcjC6Li3uzipF9iFtPgNJYw8DVTxCgs3qDi+qqAwGmrHEKR4QRz34CH8OuCr2O4Krcs9gPUZAplC+4+CzHdfqsG3Y7pk7HIZz5DvhjiugY8NI4jYVuBh4jXOtEFtaRFMz68hCN1tHOwOssOUY0WlZuzb4TEgoKoP6RNAHjJith9ID3Wjp5o3DF5AbgGVHXjKkVKEwu5141kKHXDpLG3xyAx+sSq3784ohMdGhCK66HLUHdi4i+Xq+YF11v2aCLEz55Sa5Hgu8WdJZczTWDFHVQHEE+LstNX7ByGcnVS1UnvLQOSc5OHOotmghHViwMLjkmppBa6p0gTOk376N75cQWLmsqr+0HUp5hInfYMxV0=
+       properties :
+        x : 76
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Stops the current browse
+            HTM_BROWSER.Navigate(htmlStop)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : EDT_BRW
+       identifier : 0x203fd60315b0e7bf
+       internal_properties : CAAAAAgAAAD8VGqam+vqMUML/9FBXlRmQ+TB/qH0+TV7P43jc3LnADEu96EUyFLEtHoRMCa+pnYpkn8wxal/INfXEtaMo8ysX7jCa80hIeRjutQQ0xHyiqt0dMTNHL5hdGmtULY/SYoJaUZ8lYGHPkc5YRev7cNRBKJmXyClmw2tLjp65t/qip8BPVFAhnU0fk4F6vPK3RbkRO8w45nGMyrIQk/JEmFFQsp3PGCO4wKME7vIZU8om1vIRQf5bE7kVMdkFOMjT8HyDpVU5nxHeh7C+IHozwzaAECE+hKSejgWVkPl90OELqYK8E1VQLUEW3F9eGWgyHkrSmDHm/a9laDMlUMh8t+3bltF5snTOgwIKTVkVm5ez9+F6r9L4VGV/VojOnvcsVPwVISHiURf4RZDqBLBCnnFBz6fhG208rfGclrBoZMTYT/sulb3UAp+Jl8bISp32irkS0M2OMcNUU2gNvNAclFVz3CBDgXtgKbAtHuxyeP75crlAtsmgxcc4sswXcDSexYNCwxBDh/bQ9FcvYNfNxyDKv8+JGHxtSpa6pwznsoba93heHt56txByEmXKL8GKjLtMwVnFXqt1p6RWwG3gi/4DzAgfXFWeQNBUsl2NFRlTnlNNz9i8p1FQY03LGpevzXj/5KseeorjhBykoefFD1NpJUBTPBbnaOibOcTMCtGMA+skcLpxAYgj8LcxDazdIVo6nFCoGJsUybfHDFivN/RnYGABlS5+bohq6brArf30jSwbA2bG6hAXeaYPRlP86GJ76GO1w6j6Qu5wjhn/jFKYyZKSrV/oVcvKRg7Xi7FU707Batb9OEzjAzpinSE9aS95oa44ec5btOj3xfgflZG+a4gOoBRxBMZ4mRLhE/+KBGvHzNE+thfIeMgQpueAJpU3NhTCzNrAxjH/Fcg7utCGLYFPvmzgaHlvVo+yUMEIHeTb71j6yxqEkyQ8qiIwu29kYkhqasgxphYVJUpOdk/b/OowLwse+Lzp/ct1DI0MkLyGjKG3PEnVP0+y/JxcgBQ9YfRX0m3XIBiA6bjp8RFlL+OQvGX5ZJ44RQLYm3EFOKpqLf1MYzg5egx9HvXholavKboD8nlVvjGCqcW1dhNCJOxCpu1t7bwTNB34nlCCJMQr/4ILwXWV47U08gbIssdghuYD2OexX09JKtI7chW0r34h5FInsBFpAkDdQxeKG41/SxjgTptW92a7dqzURcu8F95c8I14L5pyVAS7UWVplmM/EjXfK6jz/+ZcKlah3/MaXd4TdSna3inchj60ILjeXDBPllmVFm5hu+2HJGGND8Fy6TGVz84Ntv8UJh0gUuQpcKNZn6ovx1rWePN8EDNGhBczcgDB7yd4OB/AGatBck1F2fe7eTMYm9oMGm5R1s5uMsXOEf0d/lT+J0J+YUjCz4i7qmckVK+h9W8B4hfmq66Fk36O7LuSs3gde4K
+       properties :
+        x : 116
+        y : 1
+        width : 598
+        height : 34
+       type : 2
+       code_elements :
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+            global
+            VK_RETURN is int = 0x0D	
+           type : 14
+         -
+           internal_properties : CAAAAAgAAACvZOKiD+027wgMyTdAvNr94tzOhEMNVPFlxkSuakWzyayhcUnwjyXzav2St5kYNaxn4/XLwOFms+gNHRJDUxPkuycv87opR3EHCLDxm4V8wyHO+1lrOb9q+zT9O5Ed7DafUzyGCElZ6GAy0P/SQ1EVEM/FW10wtZ69LpbvVUMgIw==
+           code : |1-
+            
+            IMG_HTTPS.Plane			= 1
+            IMG_LOADING.Plane		= 1
+            BTN_BRW_SEARCH.Plane	= 0
+            BTN_BRW_SEARCH.Grayed	= False
+            
+            // Clears autocomplete history
+            EDT_BRW.DeleteAllAssistedInput()
+            
+            // Adds favorites to the list
+            for each stFavorite of Favorites
+            	EDT_BRW.AddAssistedInput(gImage(DataURIToImage( stFavorite.icon, 16, 16 )) + [ " " ] + stFavorite.URL)
+            end
+            
+            // Adds history to the list
+            for each stEntry of HistoryWithoutDuplicate
+            	EDT_BRW.AddAssistedInput(gImage(DataURIToImage( stEntry.icon, 16, 16 )) + [ " " ] + stEntry.URL)
+            end
+            
+            // Configure autocomplete
+            EDT_BRW.ConfigureAssistedInput(aiFilter, filterContains)
+            EDT_BRW.ConfigureAssistedInput(aiAutomaticOpening, True)
+            EDT_BRW.ConfigureAssistedInput(aiMinSize, 1)
+           type : 15
+         -
+           code : |1-
+            
+            // Stores the URL entered
+            EDT_BRW.Note = EDT_BRW
+            
+            // Simplifies the URL displayed
+            sUrl is string = EDT_BRW
+            
+            // If it is not a system URL
+            if sUrl not [= Prefix_System_URL then
+            	
+            	sUrl = URLExtractPath(EDT_BRW, urlDomain + urlResourcePath + urlResourceName + urlResourceExtension + urlFragment + urlRequest)
+            	if sUrl [= "/" then sUrl[ 1 ] = ""	
+            	if sUrl =] "/" then sUrl[ sUrl.Size ] = ""	
+            end
+            
+            EDT_BRW = sUrl
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+            // Enables input
+            EDT_BRW.State = Active
+           type : 66049
+         -
+           internal_properties : CAAAAAgAAADJq5wX7xwpBlGa1xhsZ/Yfkcs+3EaXl4sZUKsmeGVJ2avGuBjV8tUxkkk/BqyS+9zBPKikxjox5aWs7+CdM89zmrJThia7s6WPIck3W62RIYDq0+qPXiW0vzccV7ysHM9u6k4kQ82IDMIUNW4=
+           code : |1-
+            
+            // Validate via the [Enter] key
+            if KeyPressed(VK_RETURN) then
+            	
+            	// Takes focus off the edit control
+            	SetFocus(HTM_BROWSER)
+            	
+            	// Closes autocomplete and and prevents input
+            	EDT_BRW.CloseAssistedInput()
+            	EDT_BRW.State = DisplayOnly
+            	
+            	// Execute search button
+            	BTN_BRW_SEARCH.ExecuteProcess(trtClick)
+            	
+            	return True
+            end
+           type : 65792
+     -
+       name : BTN_FAVORITES
+       identifier : 0x203fd60315b1e7bf
+       internal_properties : CAAAAAgAAACIX4lzvmyBRi1fLHHiEo51Z+shBl3/hPgomyyXXeVIwaKhPoIYM/+6kGifiymZHiePCBESaPO5Jc+0QtPn8fkkDQINB+LpsXkZDigmB+cVkA9llpXUWixyarA5rl1J9rl8KuIKdkChNx1+qcbge289n+oUnu4Adyc8cWQSZin1P7RNd0hu/cJq3+TaJmQ98j8NgZMEq6ak1Kr9IEGf5m8gEexHyvLbcUkFolD1hBeTQePezFbP9fEBwrpd2RxVb12C2MEAGRO/M/tvIG5EpoSGJgHDvqp4K8i2XiH1qORravuZGU4L09MLVQ+ESVqSk1Esah4qwvvs8we+DqIIaNNAWgy3bYw4oEjiyZVPLan461se2/HcugLPHLgzlA6DjnramkITnSpfULwZK0/F7XU9kEIp6ApwMjUXq+r6hw4r/3GRLlNWrwjokEE5/SncgAjiPY0McSOC5SlTm0aFTWAw4IJdmwYKUokNNW9RVoSmhHUfDZcBaleKHp9R9tm8F4RLyluVJr3M+pD40F3fLvUwxWlBqdC/XJK8ZKGxGG1WpvFpwltsg5b/rsWkl8xnLkKeI/5JsEDSshM0dCveu187Fi7ojKIefgKA/95lQfy8iAim8WKxlQ2geR1ZlVGUmlRiYUkeD2I0NAqDAuaHAUWbM4FW0I3uidg+iSWj4SayST5XC6lf/CrEKaj7eXY19VvZmT/93bcganhS6ZdwYBS3IBCxYrlNGe/4ezU9kTpnoovE8qELoZhlxmPeQeHfJBQq8mDsqTJU1lJbWuxUcv0NZgtj+RxpsAaic3h9U9wUsA49s8umFAXmYQ6B3b64ONTd8B3lfjVWKztDmiSluFpD5d/1a1x7piaPguzuHSWHKtoqrmaJNJs2tyeU3sHbgjInUki/mnAOqjd7qW9NYmGKDAVmzcL+kXE4bbDqeMRAlGSZr/JtwjPGQ91Ws7eg5O2apMKybWo=
+       properties :
+        x : 726
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Displays the favorites
+            ProcessSystemURL( URL_Favorites )
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_MENU
+       identifier : 0x203fd60315b2e7bf
+       internal_properties : CAAAAAgAAADmGNqsuDWhS521ZL1NY3ZwDaDalxHQaX0XrR3Y/h9Nmj6qtsW046Ldwq2q2uCIW18PFIqZOT8Kd5ak5BBKr58wq5VspQB7XPHardvMfWh9CyqytOxcTJWQYQHMqaVckTZw+O9idmbL/HRlB4jpbeRYOP5cFKPDz5N8cNgm8ezaoRYpbt8LtW/FirlTb20qFv7w8fQNyJIxeYA5mPqq6deN+8KYiZTGF4GfNW1syi4PvftUeH+VtgAVRS4O4krnuJP8OORo0GNZ1I9QxjI1hk+Sivm6zjVoFeK66S0c1+Zs1XkUjB4p8lkrxygGivLfyi1ysHyPHFHVSZxUemuPTRbsbkI0N1qMQQSZ3Q3E2KS03NiOLKU9nSdmV88DD1FkipsCwOXXspuKpdFAsaI10PjnHxPv+rDMvZR57nOkF3zZkBm8Iou4JXLiWTMzDpbkimS4Gw5QylhGF/OHjXaUHu2FqwKUiRFQFvOrSzme/oNih6eNYZ7BZOD6HiY6Z72CXTK9KYCBst3SmR7G0EMF5XLdiFMOqYWXqA5tt6wTBtDrSa69ShmtJD6L5TRLF/GrhtmxXof46id52fpWW9umBsuF1eXRfYqIpmg2vTwXY6DUKGK7GEsGw6NpTfkP76PuVnMBKC+VgYdgkJPUPQmI7bMtwKiRwtIIwMZG+f+xIMDM7kjSGNHOvgFLPLi2Yhjjwk6DTjq1jl7XEjPh+m+GTqDIZVswWYclmECYpAIvVLelS4dwTCYr4cSxws0yQzYroobLSG9NzX5VeYD7H69p6/Sgb34Cqy8bZLJE3bUqLsqUZszVg6JVnmGh2udisOAksHZrQIM+EoeWG3FofXRbY+EnZ1fXg0FsXEnr0s91YmH3S5GsJ8r+KGKYuZZ/lAaKcrv7f54l6TydG/lszT4xvJk8i1yoII/U7puli/uG0MiNAWMws62/HRhrPYkOe+zBhueEk1pk3lhCVhgz8pk=
+       properties :
+        x : 760
+        y : 4
+        width : 28
+        height : 28
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Gets the Tab control from the tab
+            tTab is Control <- { ControlTab(MySelf), indControl }
+            
+            // Builds the history menu
+            BuildHistoryMenu()
+            
+            // The option "Add all tabs to favorites" can only be used if there are multiple browser tabs
+            OPT_FAVORITES_ADD_ALL.Grayed = ( tTab..Count < 2 ) 
+            
+            // Opens the menu
+            OpenPopupMenu(MENU_SETTINGS, MySelf.X, MySelf.Y)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_FAVORITES_ADD
+       identifier : 0x203fd60315b3e7bf
+       internal_properties : CAAAAAgAAAB8+1LJA5bFomyyuUQPlsTuWc09PcYqN2kVqLSzdUrnrwIGpTFRjWOxeLawEIocs11MGNoTowSiLH5ftuG6ILBfGDNQ3v7QSrU4bRc5400BOT7tmsXSm4YwzlHuKTM2ErdIAQKCmpDLIo4pW50XCGYcqVlYaSB5VfqJ2iAzgLz8RQgbNOEuY1owVUHP96/MPSN+s2p/iltRmTdPmU7/Cs6ZUQGLpDGbUL27JClOgJ1pURclusyOmUNwV2fA+q7k+0gm97BKYsaB9mRdcZ0exg8/3+/MwmGfK2x0Q/nWYgdt2S7FSuBcm2QyRAJSsKRoAqa+22F/d27KD6rAUr7upjk8gpqZtJ+JeZFmtJHrt1dI1tADTxTlBHnI04Yiw9AT+DAHOB3JmYY/RJGd24QvfLGmib0nnSG4GSo7DPoPrP1pFLySQjRsCf/DtwIviXQjrbXyu4wWVYDOZQ14ccENkmadN2wS/GnYP091FErbjADrvtd6VE/JtENqS3CAtd4FkZVZXBV06fhDWf+6dDdJdk1db4yffE3ST35119nP1r8LbN05yrhLHsq4IA29WrZMYbTBnVbTaBDpRTbPL0/h4Wgl9cIzJ7fma0UBkteMFtK8MmyaqRybmFh2XtXjYuw/wugMkbW/elNQPswDi81TmssS5oxuR4ane0W8P/taSjgBj0rfu05VvC5rMRci91h9Cu+grdTnXunYmdWZisbtEZ+71xNcwbDwfJKQgYsPFzEGNZn4aRWPj5bktW/ax2Qhb8EzVxY0YX8LoNVUdGMyy9nPWQo6s8FJD8ZDtsyIgTLR3nBEKEHoTr7Jod+9cwXGtvdXr50qp0gwCLeMKueveBlfffdIEYZ5GpFD0OT2hCNA3EBJ+xbVoRyJRr8qq68XfwHfBgqDQAOQEU6qHEzf0AT2qtY/h748J8BApj9ggAdIN6oc5iUe394KGUPv/ZiTb7ZovuBMdBrKp0aILgAYupXfcPSVq/pa0sm/7NniQVJFu3/jSbpTaGlnDBXd
+       properties :
+        x : 685
+        y : 5
+        width : 28
+        height : 26
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAABwf1TI7X0+WEP+867S9yx/W0CBfRQFhK5ZAzejVc+2T3foPDlNDReP7rob+bXirxTXgG+/I811dH/Q4u1fIAN76NO65yoe85CF6QIghUCpXb4FlL113WWrZ33vvjxvrmHSmctf5g20y6BJ4Q==
+           code : |1-
+            
+            // Adds the current url to favorites
+            FavoriteAddTab()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_BRW_SEARCH
+       identifier : 0x203fd60315b4e7bf
+       internal_properties : CAAAAAgAAABmQG7TM65KExAucz44i2FqLNZl+B994on8HJDkFaKRBCFAJgUtMFvBldrERCcCPxRQi99nszkRMaYswDeVpORq7nKcJQqIIlv3sPbQhNuGauXaSERWHdOtRf8zrwL2sfgAODaj1YiVjdSzJnegSCbaP6lCA7sHFYBGRPy2vLClsgTBne+t6VEkEqbR7bL7kuBqJGyfaYepyUyx22Kas+dGgYN6PBkPgcnDwcxRpZjcTwZX3lA6U7AV9IRtMRnVkhE/BUBDPvjzaeBQOdelAQEu7gR4IdiHvobwTbfP0ZykaGdjwR6RCN0GOGW2Xe4ZiB4ppzWaRMHUGWfB5G8GgdeGcpvREFD5fdLSkTNQdb91YFnOn9M6NeEH3W+VqENBarIlnfU2+sLbKjKoNZXmB8xJme+KssoVm1KT6B3B+DH+AkPRXrSu2Yd8PRZNcwkn7botk12lfrP/XRYQBe2BfQ2XzSIusZvDZtqU1qfSyW9CpIzDKQJg/LsioGx2E9cERgcQVX+APZPuCCHeRaah1FFkRTyXXDu0UyhRFW0dgW6jhAaRV8A0oeTeyEkDE0cIGL5nskG4I3raFcrDbWAr4b5LntTJaZILgYEx7miBiMDgFJ+EeBsHJ9j4OOoWgcyNLsjDILnz+Ut3BcLnefRBAp7Xm8hfZ0XSlacQeWyBM6tHCEbhci+uH00j4r774xRqN+1FDFSetiBHB+fn6Z/vxZ8UnNEpVM3AL5ZobWR9sj/izw7riKtwd+0CS9depkTtsODTJlBKzqlMfTncDqwQ3A4FXtN9xBxggBMqfVKzgx5b4XOHFGAjcSEZ405lC9UfjReHYSApSLSdeORM71OYBDOeyQhYOZftZzKz6KwiYqunJa1fwtlxDsba9ualQuu9Tk2Iv2ka
+       properties :
+        x : 117
+        y : 5
+        width : 28
+        height : 26
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAAeAd/jYajmb/cWyK5JV5oHWC0Nn4d+3ZqEioj56+YMo/BmQ2iZaEPzP4GJvxZYbkPJOsCrgLu47pjlV2t/3qDDDrwUVYWd+9tKArlbQBFWPePHLRalMS2CaHrR2sztjtFpglaSFVGjqIg2j1azq9u6H3AR0lkG3HRp2UToC4dOFzbXuHwB/9mW0xK++Vjlc8ta
+           code : |1-
+            
+            let REGEXPURL = "((^(http)|^(HTTP))[sS]?(://)[a-zA-Z0-9\./%_\-]+[\?]?[a-zA-Z0-9\./\=&\+%_\-]*)|(^[a-zA-Z0-9\./%_\-]+\.[a-zA-Z0-9\./%_\-]*[a-zA-Z0-9\./%_\-]+[\?]?[a-zA-Z0-9\./\=&\+%_\-]*)"
+            
+            // Indicates the URL change source
+            __Source = SourceInput
+            
+            sUrl is string = EDT_BRW
+            
+            // Removes spaces
+            sUrl = sUrl.NoSpace()
+            
+            // If the values entered correspond to a URL
+            if sUrl.MatchRegularExpression(REGEXPURL) then
+            	
+            	// Assign the URL
+            	IW_BROWSER.URL = sUrl
+            	
+            	// It's a file
+            else if sUrl [~ "file:" _and_ fFileExist(fSeparator(sUrl[ 9 to ], fSeparatorPlatform))
+            	
+            	// Assign the file
+            	IW_BROWSER.URL = sUrl
+            	
+            	// It's a system URL
+            else if sUrl [= Prefix_System_URL then 
+            	
+            	// Processes the URL
+            	ProcessSystemURL( sUrl )
+            	
+            else
+            	
+            	// Triggers a search
+            	TriggerSearch( sUrl )
+            end
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : HTM_BROWSER
+       identifier : 0x203fd60315b5e7cf
+       internal_properties : CAAAAAgAAACBVeCBWnxb8sy1E3DXkNUKlxPaUffcn1Jx1Ho7z9vvk6muPF4KTi6PfVmevAsLvrkFwW24PT5MASy/3SlndXYZwBQAWjcp2mSnt+pXJrjqY8rDKHzfLOIDEaVZbimaYgPiRWY1/nIJ4AZLEgpV6KPC+QvAFGqJcstmn8CJ2jRv7ORfFgRpJfwtTw+/gwdXTaHkikHUfx5Ycr/ZSphSVidR7lxj//a4x6CMaT+N7YeTmUhV1Ca02P4b1B5Wb1B9lMTmZ/pyLcpzRVzXL0+KC/T4AslbGNAl/nhsSbqiLtL2s1kviwBLk0XTN4vdot/EvOicCxMSXDsSpFIBzpOzqGvJRWKze77v0EU96Q==
+       properties :
+        x : -1
+        y : 36
+        width : 798
+        height : 567
+       type : 23
+       code_elements :
+        type_code : 36
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAD7PT3Fm8nn1hHqh4gkL15fuQv+TLY3d5PxWNP+yAUJwXvuoMA92h3hson/NhSq8xwJ/Mj05qqtUSnYg3RJF+O/Vp6v0sLvb+Fz7V3r19GFTfxGv4Y7IuHQA6Pwi4jgYItaxppgHw+FkyMmx5w=
+           code : |1-
+            
+            constant 
+            	targetBlank	 = "_blank"
+            end
+            
+            // Allows drag and drop
+            ExplorerAccept(True, MyControl)
+            
+            // Minimum security
+            HTM_BROWSER.SecurityHtml = secHtmlNone
+           type : 14
+         -
+           code : |1-
+            procedure ChangePage( sUrl is string, sTargetName is string <useful> )
+            
+            // Keep the CTRL key pressed down (except when opening the tab)
+            if KeyPressed(kpControl) _and_ not __Source = SourceOpen then
+            	
+            	// Open the URL in a new browser
+            	OpenBrowserDelay( sUrl, "" )
+            	
+            	// Stay on our tab
+            	return False
+            end
+            
+            IMG_HTTPS.Plane			= 1
+            BTN_BRW_SEARCH.Plane	= 1
+            BTN_REFRESH.Plane		= 1
+            IMG_LOADING.Plane		= 0
+            BTN_STOP.Plane			= 0	
+            
+            return True		
+           type : 290
+         -
+           code : |1-
+            
+            IMG_LOADING.Plane		= 1
+            BTN_BRW_SEARCH.Plane	= 1
+            BTN_STOP.Plane			= 1
+            IMG_HTTPS.Plane			= 0
+            BTN_REFRESH.Plane		= 0
+            BTN_REFRESH.Grayed		= False
+            
+            // Gets the title of the page
+            GetTitle()
+           type : 267
+         -
+           code : |1-
+            procedure DownloadResources( sUrl is string, nType is int )
+            // nType indicates the type of resource to download
+            // Example: typehtmlImageRes, typehtmlScriptRes, typehtmlCssRes, typehtmlXMLHttpRequestRes, typehtmlOther
+            
+            return True
+           type : 289
+         -
+           internal_properties : CAAAAAgAAAA3Hvb2G+3CCZluK9F6IsKDNmA+JJFJop2zFLqYdAundyQh9ZWqCYerDOuMycsmfW4DH/XbzscshxKv48gJJcvW9Eg+5Cu49vysVSNmFuqlPFqHEnpkWOZ51AWkfNCGWbNcgOcrJaC072GjRU5r6szwC8LChmDtHnq7lLxhR3G4uw==
+           code : |1-
+            procedure ClickLink( sUrl is string, bExternalTarget is boolean, sTargetName is string  )
+            
+            // Clicking on the link sends to another browser
+            if bExternalTarget then
+            	
+            	// Process according to the name of the target
+            	switch sTargetName.Lower()
+            	
+            		// target="_blank"
+            		case targetBlank
+            			
+            			// Open the URL in a new browser
+            			OpenBrowserDelay( sUrl, "" )
+            			return true
+            			
+            		other case
+            			
+            			// Open the URL in a new browser with alias
+            			OpenBrowserDelay( sUrl, sTargetName )
+            			RETURN True
+            	end
+            	
+            end
+            
+            
+            // Displays the URL in the edit control
+            EDT_BRW = sUrl
+            EDT_BRW.ExecuteProcess(trtExit)	
+            EDT_BRW.State	= Active
+            
+            // Stores the URL
+            __URL			= sUrl
+            
+            return True
+           type : 266
+         -
+           internal_properties : CAAAAAgAAAD/lLDkD20GLwjMibcAPBo9YhwOhMMNpJFxroz+qi3DcSRBgYEgP90TUu2Sz/F4/WxHy+27+Lmmy4gVBeJje5P8J3v7/+4l4/Xz7KTFP8m4v32yx3U/Rctu5yjBD7WxaGLrp4jyDFX1uNBScB8yozG1cC+lu71Q1b5dHmafS3Nw8w==
+           code : |1-
+            procedure RightClickLink( local sUrl is string )
+            
+            // Redefines the actions of the menu options
+            
+            
+            // - Open link in a new tab
+            MENU_LINK.OPT_LINK_NEW_TAB..Process[ trtMenuOption ] = () => {
+            
+            // Open the URL in a new browser
+            OpenBrowser( sUrl, "" )
+            }
+            
+            // - Open link in a new window
+            MENU_LINK.OPT_LINK_NEW_WINDOW..Process[ trtMenuOption ] = () => {
+            
+            // Open the URL in a new browser
+            OpenBrowser( sUrl, "", True, True )
+            
+            }
+            
+            // - Save link as
+            MENU_LINK.OPT_LINK_SAVE_AS..Process[ trtMenuOption ] = () => {
+            
+            sFileName is string = URLExtractPath(sUrl, urlResourceName + urlResourceExtension)
+            if sFileName = "" then
+            	sFileName = "download.html"
+            end
+            
+            // Opens the file picker
+            sFile is string = fSelect("", sFileName, "Save as", "All files (*.*)" + TAB + "*.*", "*.*", fselCreate + fselExist)
+            if sFile = "" then return
+            
+            // Prepares the download
+            stDownload is httpRequest
+            stDownload.URL			= sUrl
+            stDownload.Destination	= sFile
+            
+            // Downloads the file
+            stDownload.Send()
+            
+            // Inform
+            ToastDisplay("Download completed", toastShort, vaMiddle, haCenter)
+            }
+            
+            // - Copy link
+            MENU_LINK.OPT_LINK_COPY..Process[ trtMenuOption ] = () => {
+            
+            // Copies the URL to the clipboard
+            ToClipboard(sUrl) 
+            
+            // Inform
+            ToastDisplay("Link copied", toastShort, vaMiddle, haCenter)
+            }
+            
+            OpenPopupMenu(MENU_LINK)
+           type : 291
+         -
+           internal_properties : CAAAAAgAAAAnLuYm65WWOTF+O9kyEqrjtti2lCnvli1rKOKEsG/bd2DdQZmmTeP/tCeEdbeimQbn8ym/+nt4m+r72wyVaW/mHgJkDs0KLL5WxwFwmKgjelQJqOyWOpxL7ucy7kJMP4FG+m2VP0pamc+xYWpHxuD0b64m+txR8kYPTOwxF4Goqw==
+           code : |1-
+            
+            nNbFiles is int = _EVE.wParam
+            
+            // If at least one file was dropped
+            if nNbFiles > 0 then
+            	
+            	// Get only the first file provided
+            	sFile is string = ExplorerRetrieve(_EVE.wParam, 1)
+            	
+            	// Creates an access uri to the file (replace separators with /, delete ":" characters and encode in Url format)
+            	IW_BROWSER.URL = "file://" + sFile.remplace( fSep, "/" ).URLEncode()
+            end
+           type : 66099
+        procedures :
+         -
+           name : GetIcon
+           internal_properties : CAAAAAgAAAD2mfpW3tguHLG8+VUjaYFvjQ+iZYDsLrhDEt5g1KjK6teyykWJBQNsP/HVN5PWjDKkTCtHUrketThFfrK4CftdTn/TC1HAY1CSEGQB+YNl4/zk+SMykExeSLAKvS4mltsY38ALR1Nrm4HMK1ECZV9ujIMBA6CrfZG+Thx1oi+jBeBm
+           procedure_id : 1170889736541431743
+           type_code : 14
+           code : |1-
+            // Summary: <specify the action of the procedure>
+            // Syntax:
+            // GetIcon ()
+            //
+            // Parameters:
+            //	None
+            // Return value:
+            // 	None
+            //
+            procedure GetIcon()
+            
+            // Executes JS code
+            HTM_BROWSER.ExécuteJS([
+            	var e = document.querySelector('link[rel$="shortcut icon"]');
+            	if ( e != null )
+            		return e.href;	
+            	return '';
+            ], __OnExecuteJS )
+            
+            INTERNAL PROCEDURE __OnExecuteJS( bRes is boolean, sReturnValue is string )
+            	
+            	sFavicon is string = ""
+            	
+            	// If the execution was successful
+            	if bRes then
+            		
+            		// If there is no value
+            		if sReturnValue <> "" then
+            			
+            			// Stores the value as icon path
+            			sFavicon = sReturnValue	
+            		end
+            	end
+            	
+            	if sFavicon = "" then
+            		
+            		// Builds a URL to access 'favicon.ico'
+            		sFavicon = URLExtractPath(IW_BROWSER.URL, urlProtocol + urlDomain + urlPort + urlUser + urlPassword) + [ "/" ] + "favicon.ico"									
+            	end
+            	
+            	DownloadFavicon:
+            	
+            	// Prepares the icon download
+            	stFavicon is httpRequest
+            	stFavicon.URL			= sFavicon
+            	stFavicon.IgnoreError	= httpIgnoreRedirectToHTTPS + httpIgnoreRedirectToHTTP + httpIgnoreRedirection + httpIgnoreExpiredCertificate + httpIgnoreInvalidCertificate + httpIgnoreInvalidCertificateName
+            	
+            	// Downloads the icon
+            	stResponse is httpResponse = stFavicon.Send()
+            	
+            	// Got a redirect?
+            	if stResponse.StatusCode in ( 301, 302 ) then
+            		
+            		// Gets the new URL
+            		sFavicon = stResponse.Header[ "Location" ]
+            		
+            		// Restarts the download
+            		goto DownloadFavicon
+            	end						
+            	
+            	// Good response
+            	if stResponse.StatusCode = 200 then
+            		
+            		// Loads the icon
+            		__icon = stResponse.Content
+            		
+            		// Changes the tab icon
+            		ChangeTabIcon( __icon )				
+            	end
+            end
+           type : 458752
+         -
+           name : GetTitle
+           internal_properties : CAAAAAgAAAAeAd8I/SDyqU0gk5Cn/iy7cWfxVByjmUAE78SMJmRSUZZCXryTRZvTV8D9+k9wQloJtiiAuUL0sRhD/10GQhxV0H7Up8uBlaOD5ZwOM4TFrmQOdGVLaf0Q+nvqfnF/yLMHydGhOWwWhNyCo82KyN2yVxTdOthEIuNipFPsxL0Yj48qhxhV0wTFLk8XoHPlc8ta
+           procedure_id : 1170889736541497279
+           type_code : 14
+           code : |1-
+            // Summary: Gets the title of the page currently displayed
+            // Syntax:
+            //GetTitle ()
+            //
+            // Parameters:
+            //	None
+            // Return value:
+            // 	None
+            //
+            procedure GetTitle() 
+            
+            // Executes JS code
+            HTM_BROWSER.ExecuteJS("document.location.href + '\t' + document.title;", __OnExecuteJS)
+            
+            INTERNAL PROCEDURE __OnExecuteJS( bRes is boolean, sReturnValue is string )
+            	
+            	// If the execution was successful
+            	if bRes then
+            		
+            		// Retrieves the url
+            		sUrl is string = sReturnValue.ExtractString(1)
+            		
+            		// Displays the URL in the edit control
+            		EDT_BRW = sUrl
+            		EDT_BRW.ExecuteProcess(trtExit)	
+            		EDT_BRW.State			= Active
+            		
+            		// Stores the URL
+            		__URL					= sUrl
+            		
+            		IW_BROWSER.PageTitle	= sReturnValue.ExtractString(2)
+            		
+            		// Gets the site icon
+            		GetIcon()
+            		
+            		// Processes history and favorites
+            		ProcessHistoryFavorite()
+            	end
+            end
+           type : 458752
+        procedure_templates : []
+        property_templates : []
+     -
+       name : IMG_LOADING
+       identifier : 0x203fd60315b6e7cf
+       internal_properties : CAAAAAgAAAB//XjkuJ5aS5uqF9KuwsNXhPrWavlq0RWMJlo2ciLXFoXA1NbsgEbWu/KzL83BLzEe30qcJx5AzAfLKyY08uGZVxMMjzZH1Und9ontUP9ps8QjBg0puU2Aw/5MjGdMJPie1Cpd6qkqVTxcuofK91AXkVPGamEJOK9Inl1bGtKE59ZJi0kX1+rO8IH8QA3ZcfSBwWrBKQB1WqdVEn3WOtxOqNIrk8IFozIa94ohUQnAR5khxU5EpmFxzxycI2ECKjOgsZB3xY9Cy9KX7Jq2rAUDXZBMut68b0/WbTIQUR3w7ovxqOHjfPV47IDAXpFMm2t3vv2Jioj62TR8af4RQflIMT/2va6yhfNMEkc/fzB7AluO0EsK4eCCA5DkEhWLxM7iXuK/ZRmZhrP03+FNlijqhdHnOgirKV2p3mMtNajNs/qINyhAptAGTyJV4I9Ue2mVWZpVsLwH+AriRggXj0dIXnwjYeOoSSHgdAUnfrsFB09WtFSj7SJli+geH5YYPGH0sTxBmJX0cUsltS4Y3+4PnrDnfNeKXSSPJoCWw1CII4jpo4CK/6kD56TaNOUrA2BHo98Crr1Ecg1f5imo1QOWolu/QzdRAbboc5kxHAEkJ8jHlagijx2kUuIc9ilG0ubD+X2tPueKnx05aV9TT/PQgT98K3fs94rs55TaogqOuWqeXOcouOMOMDQjP0t5hvHTYwkqedEDn7UnOz6P2H7ZRxE0sFPtrvDYMEKz8RBILXV+sP55/CDhqbKrDC+R5EapYHzj965u/RrUbuq3bscirXJROvk+Fr0xbx//FN6yV84pBwuzPvzr89trDehMrz/ukvIPYhhoJcpRSQ9nXX1pCA18jJ7qPDIZVAxT6DBAsLb2g8hzpCJoB2Ayr2Z75aIdNYBO+9EBbMLZUSDR5Vt7ptXrd6bZcPU=
+       properties :
+        x : 122
+        y : 9
+        width : 18
+        height : 18
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_IS_FAVORITE
+       identifier : 0x203fd60315b7e7cf
+       internal_properties : CAAAAAgAAACj9WQGMTFe74FPCfao1utccQoJqR1VQY8kAYEqEv6RBhns/GUD9W/WkZgAIqBw7RtDTkZT6iMB3szXnU8rlDWcroeOY4L3McgId0qXo9LhfaI1LwGEhGUDt1Z16Un+M9U/haTIDWvsyURlV1Lo+DLvxVmYHT6bM0qVagsv+dsp2WrBEEzR8tHtnpM4nSSrw15akk1f0jIjr5z9FGrbJRPnpBc4ApSXTjmDYOuY6jTLlytKLyRTXy2+OcpqPkQ2nRko/VP2Ki8i/aVl5O+1FgbY+PJYo+GC2jJf/GN8FyQQKUycO1DS5M3AAUCIb6yEx1hltRHGBpxFEmgu0TNLS5pYzreE499cvmEw+17aSK4evWdyirTnaX/LBBH7TEtpPmtQKZFdT/vgvkgTOLlyG585WyYSVamAQ1Bxz9z068r8yBior8rEIhxGw/Sw1159n7zjoEmR73DxUGkF25gMYbycb12YYpfxEvsAKpCzaUloyx7Jpf9ScI+zTeZkbALeq7qc2iAnWKi12vpDuLPSC6MF874PNyaeI7jNf7RL1vgCmK5FcutpYecCZo/c+HcsudchF5dNRYbdXR606mxQMxF17JnjOqRc42sv1kX8HtX6nKBVSZ2szdqyHvIZauIHaOnNdfvwAbwWuG7e83LFH4djlsOyUxWzrXN5gORY9BXPpK07JyZzYV9tPD0X2ly2dgDgW1drrLFbN/QbBfEBep6gAsIp2n/G8LvpY9lp6hML8kXlKPp3TvvKCYfESpq7m3odZOb0tEHu24henlUYsVbYhPkE7ZH4Qh5NPSaUr8mTZJMkpKEy97Dm6jPjeDQ9nAikbfuAX6l5VajJK8EhQamd1afn9MioNs75NoOgOQ2ajz7X4c1Il2efdvuMCTWKtwGmwoHUFpS2s8dXL4fg5iRgMgSX8Wva16+QHn9k
+       properties :
+        x : 664
+        y : -20
+        width : 14
+        height : 14
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_ADD_FAVORITE
+       identifier : 0x203fd60315b8e7cf
+       internal_properties : CAAAAAgAAABvk600dux3IiQ8X8E0ffjv0lZkxhMAJLsjR35P7aO82m5FHhEW8bf4/UgG56ehOp5MiWc5pbPjh5C1Eb3aS9IXlj3Vx9fGswXP20GwU+hAILPStI3wVIzA1qWPfE+mwBowhr0CMHl98GO7njHGtzKwFfHBehUUmboMScEwwNUnbZH2TtsQmm3ABoONZB3Jab04opnvygRZCoeVOYBi8WIVPtMmRXW5cdV00VYX9M4w9X/lqZ1JtfBSgAIMMlYLCudDReFxjMRLb3xkiGFBB6Hc3899mz7eOki4x/U+tfvSMBsr4Pmx6MrSiPl8+f/H/8NxnqlDcLhotxyuGzPISdv2Zkaxe/065cwKFMe00egR9z7fo/M0SOgVH2Nfsx/SH/87/4tQIPbMcwl/RHxX2N2jM28HtvaVcrDQ5LKcDyHmGYhWvhroNDM/fuMhGXkOozD6uGP2NngqKhq18IjtBmPQDen9vIkLeAtUf8/+yADzh4S5XDxw4Q52WLdMBj7uWAZMp+SQZrsom4U5V1XNF4TgC4FkhUc/QTaPFFSXeNOuwhxKnLQIbDpuq6pkVDW7dWk2uifO4q31LDonm30lCK6q0eiW2MvwB2ZVnAnqvhiM4FdOjbRinPEoKDsFiLBZR/ZXYEkXCXX6Xd35CbXdlT5rbfhtMYEDT2+qHdRMm5WXVZIn5JeMxSU2v2WYrjKiEx1Z3mApmB6neZrAfHFJtHEMQPMKXPF4cyLw3+95OvbPwrBiGYfq32sYafHY9Y+il3qX5p4+Wp1PdHE5cFqmneWkGTFXL9Hm6i0tnMM0dxlTU1FeQu7MP1O3vOKrThDWPVDVPD9Y0bVAOx1SuueToShsivUBZJUqg3WgR9sZEuLCIhKDkYhS0x3+0yOFThMCni7WqHAT359XR/JDRZ2mHmY5FJOo5yYWWhhJSVrBBX4vuqkSwvU=
+       properties :
+        x : 686
+        y : -20
+        width : 14
+        height : 14
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IWC_SYSTEM_TAB
+       identifier : 0x203fd60315b9e7cf
+       internal_properties : CAAAAAgAAAB95c1VwWH1v9dGzobIbHi+ruuDbwDXWTgIp2vNOGhY1W36Aw8LZgihppiWtYGS5SYymJ4DEyvH2mUEHp7qp9e1VjnckRQU7jXz//uY6Ocynnnxs1KPckgolB8X6drxS2M4GGYQ9F3oOqKlml5ctplre9aiqg+svZB+50s4uXhQVAVvMFqRqjsvDoPSvnS53C7Fiu1FahGp08PkRCHMBWZ4zHoAAY4TRfnnD+Imsd3skGhmt+4PG4HK+q3xMFMqh0TOP4AzDBcAnRPR1mScJwEwqRl0pSQTM+Wlugaz5tjD6YqG5kpOQSnSyADUiDGI4r5MbmsAN/c+EkLPmE/RACn/GKZTtJiJkuKExXmjAw9wQPPiSjqs+fjz5DbWppqxoSTvnNyxIrzd8Uv4snvvUfzP7auP/5XsTmIJEUyNhGKhRHC2q3+5Xjznf1SPD1DIi36t/yOe4h2TSLJVofxFVcZGTfB/wd7xqphD4tct3MWVeDHoa1ImQcAJ8doKuOgA2TVUKG91q3aWPisAVJfyskO3Y/fU5TBjifwqX7eETZFgZBXvbBgCK+8CnSymkfEoqQ85+Hum893P1FzTiV/+0yE+o1LNvzKzcDFzFBZLnzzNJLZBOg1FGIog/ABCabUHvNHdVUr4Gt7AtbxLN/KNG+MEBqlyRnRvoYxtuW3AKaFoiDz5E9ZS
+       properties :
+        y : 36
+        width : 798
+        height : 567
+       controls : []
+       type : 31
+       code_elements :
+        type_code : 73
+        p_codes :
+         -
+           type : 33
+           enabled : false
+     -
+       name : IMG_IS_HISTORY
+       identifier : 0x203fd60315bae7cf
+       internal_properties : CAAAAAgAAACKYVTPaegujH5AgBeI11C1Zry9oMbix0I7zIGEDcicbICvc3pTZkAaSwcxrbsjdjrVxFmeU4iPqPoHFs511hcJoxQy5Itqa766u0ZL9EPBQp1CEBnEEG8X78rguyc/J0UHA0ib1BxolMamULI7wChcwIRPTvjMsk55rn0cvC9tyxaKeEXN1zJJ8vh2fwHijiyOjdIIJviPhDlmZ8KcGpF8VCU/h1QbPtqreY4vjE6CqlqPecgHoeDIvbfyV6lFvSe4T/wwdvNdFPet75OG5Qd6KwEP0e3yujz76h/ufJgKmLtEopvkKJoCMeYBCg4PJtBqm23cZeOGFv7m/3uBo98/dgkhuM019LYARsZE2LlrzySfMbl0sNYSe/CvO/Nvna7I//UiWK3hUoi7wbj1bYRVCyyF+3fwcxeWzNgK5QrvcYAV6MTm5poek6JlZUNHFxrzLveyjnvc5CLxTewm+kQQj1DWr3IRklKjoTVma/bcnMwfW04gVRYAYyWky28jg/xk+UqDY1+J5mWpB7jJDvQmPpUsyhKyg3sQcGrX9KrAdZcAxZU8MOIWk9S49GncsK8tpe+SjwcQjHmQoZlEetWRqnkS9dblJ2eHz2f470WO2Xdoa/Ou6bZEiL7sk9hvfFfUMcVS2TBdsJfRV+0YL88cdobS8dg44NDiVtMEvMq0CuMpGyLDctv7UtlTr1SDgMyFJwYx1dvY8tAu4oWwLYWqo8lQv0vaZERpqL1jrMBCRHvbmMF8GKMjnOEMschcbmMgW8MrGRAbu2GgEbAHdQXdq4mfzLZ8G+mo+JT5aFXAuVoRB6aXNVHJNgoaXVK3RAWdDpfCM35xNDGrUWG9bGaDl73j9FiTqDBZV2DGZ0Rc8A0fDy0iVxZ7aacx4qS4a+lJPj6HQtwqIMfNGAsk+3oVHYeH
+       properties :
+        x : 648
+        y : -20
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_CTRL_P
+       identifier : 0x203fd60315bbe7cf
+       internal_properties : CAAAAAgAAADiJpFmLj6FXM6RbMikppA47/qMvY+22fML7dejMskydCijLXMr923bTPVkX57+AtxvLTkNXH6vm80FCVjcJ7yDRffQ35P7tUFfoYFsTZBflOT+POZPR3xQ906VkTMgwUSoJt40hKjEzhh5FPuumMbmq90JyVdLPMzozQF6J2rIkIcSZe/4rTKG08kbBPPjGI3/4dcjgr7MsxnKzUv1RwVn+bqKm5KjyoM8we3a3mmhgVBXqWKTm1Gk8t7YAs/+T17KRSOUxkpM2nBr1KRDNKO9cCj7L6amm99qCddxTfvU4Kci1Iwrx5gBp6ieuDaJxI5weYU1A2XmrmiH1r/jFmbtW2bekDudX8r29uxU77KuxVve7TggAzpaVKBDe7GavIlrbUNxbOIAmktm/2SXBAZ6lgy+8xXfCjy0U3K+sjOGu8CK4Caz4d8C1Wsc9TuJwcc91VXGwgFmTMpBzDd+9vAH0zTusSOHWldveWbTzT90uNJXWE2m/OS2hvQUniHrlJKYC9wd12yrBQu3gcw/JW0KWIdNmitCCEowcUKcdC618ADSX/lAS1LBfH7sKc3WjwvyLpQ3X4FKKmG5bEta2ScVwchyakXnIS7R4QWEkTFA7wE2ph/EsoVZoU79XbHEIFUpHVl8AX4RSTwKCgLhi0AhWQp1QboHImp06cuGXTyFDLp5kA/N17zeacS1v75ryA/Cos58C1/3O5/BYmpFyiJXk64CuuYT7VGNkrOSFnUYAtRwq6C6Y1RGfuBmEVSxnAnBgepgBu8p8Ug/slFrJjqAAP3LTtH3dutFCi/z5OG7+EQ+3bZFj4WV3Gj6GfDF7f8G86YE/d/FRaEiYre0BtZRxbwKgPmuNxLpYUEo0gJ6AxLalJC//YtAFQ+yTQodpoQQBuLDU1cGmNia+J59i3El6M9f
+       properties :
+        y : -28
+        width : 80
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Prints the tab
+            Prints()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_H
+       identifier : 0x203fd60315bce7cf
+       internal_properties : CAAAAAgAAADGIp3iCr77nNKBnMZgYvxcI+ZYSdtSlf/fcatmtdClBakuxiKoY78kqzypaid0uv+BBSm+vfj+/1MPt1EvCfEs7sU8mb5LuhM9mcYT4G+uc+lzJxMxfSIOBn6jAobUlX9tF89Z4JJg7TVSTdr2f5RudmGhK6hH2lhnlshXSBoPZHnKeLvZ9IaCpl7w1T1Vr32F6vJcTCVUnoOnrrxAV8KX0mpq192pyqqyTvAx70NmM5/cFpibQFKs+0p/wM+SzgG8UZl6YIhOJrjxKBx3A6rBb8Wexv6FllF/Xv7lGadE637hx8bo3IBEo8SqO71FM9B3P9rHbaGy+vEe41MqCU4fypPzdREhV9zFZjc76SGsZkqQ2YBRZU7qiJDY5IkpMtl7TZQbtrY/coHZbqf/guKaouCDNXpXZbln5TUiDQ/p3xYpSWZkG62jN2FmLRAtUJXzmj1+T7AhpRudDydz6IeS4gVobwKegK4XWWI5YpeFTeaj2O+NIB+6eImssuaKCPYiDA16PcBXDKuopymf3ZeHl+worxJQQbPX/+lLyx9D+rJPgOSWDc2CY51ii6pbiMPwEqy7+ysiPuFDhT5pqFbBF7xkpTnjkxh4aBqJP584t3Pfn3+7xPUekBr4Qdz3l8Ym02l7OWAIfQ0DH77rYg/1JQTv+KEfaIDq6Dzq2x84rgIQtf/xZWuoSFbBCMv2NGjtF8R0CLGWo2aZbw+jXCuYsuU2/H7atxjbIpuaO15bDBztMwmVDBVuPekFYUr4g8waLsguNKu1XVyRGrvdVGzQcEnpAg0zsUbAc429rjfNDGjoFeyjaxmZDNhemWhNhRYxlvHpC8lrqwNsJImGpEA1kdh6tjdo5dDzfUPIO8rAWwouWkZtOc8ECVN24eYRiuiUQkZ3f3PaPm4YSjgZ7/Up7MtD
+       properties :
+        x : 87
+        y : -28
+        width : 80
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Opens the history
+            ProcessSystemURL( URL_History )
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : STC_INPUT_BORDER
+       identifier : 0x203fd60315abe7bf
+       internal_properties : CAAAAAgAAACwqbcy+tM35ftjHLH1NlRMff0pjXvRxRZzpPboESD87pAiZe9UUxMa5xxrbC8MxaQnPi1yYa5lAxi3sGviUz8PXg/5cVxib+2LHp8lMeBY6nGYeQ24OFUadXRYP3PqnpVCwKkmVGjrX/0yZGPbeBanp2358xSiw6tGtOn9Y95sDgkXVjdDxSlPBnRmEOmPB5PhQvxJHCvgo8J4gXlgWbE+sE9b7tazeX+nISr8pD2VyDwui0IunctrLByfxl41DwiP8b78rjmmhaG4uRfibdoqgq8bwt1nIKmLzwzbTtijFUpoK7zAut5L0/f4IQcHq4wXDSzTmRTNpWvxJ/KdYe3kNrEj8/YPn1H3Hi2PQaK9nLwY2RyLpjjWfEVfzKhNTGsF4rzEC5j/+E3qrLnhNCX9wBYR4EWVqIdQvpegA/iereTGARahvgA3FNDnXZ0+k0MvuSrfhLns0+9DlXL9dsdFlA==
+       properties :
+        x : 134
+        y : -38
+        width : 570
+        height : 38
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_HTTPS
+       identifier : 0x203fd60315bde7cf
+       internal_properties : CAAAAAgAAACfynle0wsvA1NNySLfaPRVR5Zx+6Wkipf2OgH1V2aBHp3TrU8VUZ/N/jgui15wAJKB/hlFs6Iq7XRikd5HGsyzujS0Cqm9fP8vaaQ9sa9tRI4+fyU915y7mJH2yf/CSKPb5s3VIWrty/qEmXNFoiRidgw6ckjl+AY3JRyXJSc08eu0cOc7ERDhE3kVqfQoxTdhpfULGNS8Nxaar9nOTIYDYhOJQeEb22Fkv8D0PPdrZ9f42VG0qo7N0bOREZNYpkPEzKC6uk0v/wgLUYQGsBz1pipNjHoNDbZxhYdT9icGOEIB20ihnh1ogycUkNAEpRBAlzAcAAU9TLiJu0W6h0ZrgVDJtY9XLuXB7vQC0jQmozvlqAGrmbal/YWZ+AYd86sP9Sy3g5+c5WpOtUuj5kiZw9NrKwB2TTTzoxSpZgljER+vSDgMRsXiVPnSyYSUQNU7r6F82+pefUOtKUf0DQz94Ye2P6kmOsx9IJRT+/UBYoRVLdgVAFQOYo5eOMW4wFy0S1yRazbgKTa5ndqaauQxFflMF1R3tQpk5TS/IiDtvoeu2mGxYlVRVJsalCGsNir8zR3PjsZjN3dhzkLKCR+NAGq3VjxHJHPB/4bXWX8FAAiWjOHokMyAobM8bmR19c11jJ1jjdONQXGC+88cGsgrQSYAdN/c0HuXaXkwuEX9D68UWDC0uq9yc19iBrMJRGHXHRNZNZ6ncqvzpKFj1RY8kPMd4omkDZMsKkiIIWeeAXfvF57hEnR38YJKpaxeECVXv4fJepzhMMk3dYgTK7hFs5SpYR279zdMVxH4v+PudqZkv+fCogo2Ic3snVPeggQkDXtqhv4boXHzhJ9Nmsp+7P9srKjLgAQ77E9W0Ktd43at+HYSkGRSmsWZ0dSwnFsDqph/zRzah2HUG8ECrIyPGyVFllR79+GKIS5Xq94gia090GDOqqnfkKtJVg==
+       properties :
+        x : 117
+        y : 4
+        width : 28
+        height : 28
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_IS_HOME
+       identifier : 0x203fd60315bee7cf
+       internal_properties : CAAAAAgAAADqJ7LL0S1u2zRc24eG9BbeXddSom08m+qS5OUIg3axBKEiDcWC7lQKkoYKZrYGXSVsKCv4JJAfDxVKPowgnr0nKNWUaJJVcuCZ7B6PBFRrhbxIlTym968hPoF8eiGY9dv2U6jcL1HlgQWQYQZ2vxEVO+pz4xhqVcX/RZdyVYcSzGZ1/AnnOum5JRtFVW3nQHzMoB6Ij+0N1XtlazckKkSTG7JkONlfr1QLfS85WTPcn1Ne+zAhGJb4c2pnAuU0izcL+m4DiiRk91pdLBXSuRPq1mAsAG3VJJgtJ+In169ioohM8PtYBBlmgyedAqQ7eDgil/pGyhhuBc6gVjpk9Hb7mDvQZyqJOiDh5eYQ9Nx72SfFcWd+jICdPG0Gh2rT1E4+PssgSzI29ZhjG9PD3Kx9MqDPY/dvJ5l8FZoI2q8S56x58BlMaQulebtwyiBCJ/2G3OypvOyGkNldbNijNYdu83O5obs3vVD6UtGpKMJ+7D2/iVeVyAwv8VxLCQCYJ1abEAtBYpCcNR1dBtYJtk2dVvy6c0btY1lD7QXUUQcRkgWTNIRYBz8csicFANFjcA70awmSWPUulRo3e5WwIjNS90QuwwPDQXi1XU9ZwX3IM1hTm0u5we6hDCufTVfhCyThlcIf1rTmvwfsOsvavKXoNl8QZZh3rhKAHb2tbwU/X5ZguHwQQPhV6hQRW5K0h+UyWUulZxNUhktVXLStj1TM1hqzZT3WCd5eCT6MGtTzT52oOxjw9Rkb26NI1kCNlKhLUVRD7AL4eW3cVijmzoz++b09o1fpKrHDUAVt0rhQev8kyHPyrgpggTKvURHZRd0eNZqSV0tXzqRJ/Vez5Cyjl4cyBpW4GcQSikMh7OWuTHMI4G21vtwNDR4PlTTr8DiYtHS8MQPjYg==
+       properties :
+        x : 630
+        y : -21
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_IS_SETTINGS
+       identifier : 0x203fd60315bfe7cf
+       internal_properties : CAAAAAgAAAAo4fwVE+1WsoAgM+m43iY4o7Vy4re2bZry7LPQ9NGG0TaD9h5Flef79cGbw+tLCt6VwWqJd9fOoDRhR6nTdQbsiUQyXkuuS9cizUmKfxmuSC/biJ8r1DhcI350081I1UWLwjUJPSQIm7ferxDZ0y9fBQxMjg0ykoygVGq+Kq7hWq4XKRzRZo+YFHwdm7CxCwkPVAZd80QlbWtK/b+1uIWWWGQCPqJSHMpnPxCVYHDFmXmV0NFg8iFxYI48n3ij6lm7KJ6GYlLiKqsm0h+N9UzOQsuI7PVRSvIXzTkVm+TAMHv70Dq/2OeHkvXsqnqhf6uByl1n7gMJ+LJ/u5Q0Fx+gEenWd1Rjcv/GlIE63fsQzOyolwA+EAaOlni1I+7y5pl/BJG4jIc95oDK3is2MNvVEVOuga5yiFOrdDOM1EIw8WRTpcbFfsHri8H8eEZwyb0vKoA1D3mZUkVhdAgDrRf621sR4YHhY7jeFoO64sRaR92J7f8KiyX2CWSbJg06+k9MQMG4rgqMOGlok9FgbvsHHgrW1WeN3053z2no/WwqRXrQb+nnmCZF6/i2QqY4hYcPWLTvSul5PWsLwKKjm5e9paqgMwWtf9gyqxhiirt1Rg/T252xsfoNxKy7vxcA/uNZ0BJN9k4FWNNpgfIBKhQ9gSu6xF0vP6awZNnyu8HRlKRIEmgnmVAZnEa8XB6drj/Tj0CwBoOWPFRfzQqjKjw40PqQmITt+f0wkhroLgD1pREET2Qs4QEn+5ekkmSd4FhncBfsNTHppF5NMd1jGUMPwDw8RMgQS2Cyz4Smi8crTyrXU5jQYfEZDh+sZtYg/BqZ6NGL6NjKU1k+/FjcP0uo3o6lg6qjUrtBeb52GQALwYTZtwYgc4Oo7rem9uXg+yvuerb690UhIA==
+       properties :
+        x : 611
+        y : -21
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABNo3BJivUqcdPbcUv+acFW2BLURrRjbVBTyG9G5Xmbr0UbXNeUDTyvga7O7Rnal7JRFdRwHURqU0AR5OQGUWSfJMTFo9MvLrqkTtAN+d+QgB0VHGKddO56RX+82Fb8ZHl2qE9zBCG5THdGVnLUWcZXTkyyPe8iWZ7ODgL9SfwXefaEhGxNapxutTbsOXzCWPLaidsZolb5oUYE8+xyI+C7drPMPA5QsvwxwsVq8/ZwMWZfScJaG3ITlIj21KKxm2nUSbGjRhaXEZ842IM9CqtPZSqRhJGEozQ8w4lnALNgrPnCTg==
+        code : |1-
+         procedure MyWindow( gsURL is string = "", gsAlias is string = "" )
+         
+         SourceUrl is énumération
+         	SourceClick					// A click triggers the URL change
+         	SourceHistory			// Change URL from the history
+         	SourceInput				// Change URL from an entry in the address bar
+         	SourceOpen			// Apply the first URL when the tab is opened 
+         end
+         
+         // System URLs
+         constant
+         	Prefix_System_URL		= "://"
+         	URL_Favorites			= Prefix_System_URL + "bookmarks"<§aad:0§>
+         	URL_Settings			= Prefix_System_URL + "settings"
+         	URL_History				= Prefix_System_URL + "history"
+         	URL_Home				= Prefix_System_URL + "home"
+         end
+         
+         __icon				is Image						// Icon of the displayed site ("favicon")
+         __WebAlias			is string						// Browser tab alias
+         __URL				is string						// Current URL
+         __Title				is string	= "New tab"			// Browser tab title
+         __Pane				is Control						// Tab associated with the internal window
+         __LocalHistory		is array of HistoryEntry		// Browsing history local to the internal window
+         __HistoryIndex		is int							// Index in local browsing history
+         __Source			is SourceUrl					// URL change source
+         
+         // Initial display
+         BTN_REFRESH.Plane		= 0
+         BTN_BRW_SEARCH.Grayed	= True
+         BTN_REFRESH.Grayed		= True
+         BTN_PREVIOUS.Grayed		= True
+         BTN_NEXT.Grayed			= True
+      -
+        code : |1-
+         
+         // Stores the associated tab
+         __Pane <- ControlPane(MyInternalWindow)
+         
+         // Changes the URL change source
+         __Source				= SourceOpen
+         
+         // Browses to the URL
+         IW_BROWSER.WebAlias		= gsAlias
+         IW_BROWSER.URL			= gsURL
+         
+         // If a blank tab was opened
+         if gsURL = "" then
+         	
+         	ProcessSystemURL( URL_Home )
+         	
+         	// Enables the edit control and activates input 
+         	EDT_BRW.State = Active
+         	ForceInput()
+         	
+         	INTERNAL PROCEDURE ForceInput() < delay = 5ms >
+         		
+         		// No URL specified
+         		BTN_BRW_SEARCH.Plane	= 0
+         		IMG_LOADING.Plane		= 1
+         		SetFocus(EDT_BRW)
+         	end
+         end
+        type : 14
+      -
+        code : |1-
+         
+         // Save history
+         SaveHistory()
+        type : 2
+ menu :
+  name : _Menu
+  identifier : 0x2fa3be7f0076a3e8
+  internal_properties : CAAAAAgAAAAjoO+VYAXYh2SYpTvD7AgXCHEHRjuTd5K/qNR3zUpM1aIlQYejrbtK76/LWLozAhgdmcRuoxDXe7vi3lf8PoZYYzNtPYlgCK9AarNrSCSSPpGDp+KLIikSwO2L+lCfwFobS8WKQZu2noN9WV5ipxuLKjTaOvfojbcmu1i6FPrF8FEPa+oQBHdRyMYNLYyLF/nTGn2y7NBixG5dC7y2wsO4aXA1CKpzZUca8sBJUrSr9FqhTJMK37pOOZqMTeCIo+trbOMI1osTdzjD26auXrzETrP8OxsAt+HgvahLwDb4kRpR6lQOjBIj
+  options : []
+ popup_menus :
+  -
+    name : MENU_SETTINGS
+    identifier : 0x203fd60315c0e7cf
+    internal_properties : CAAAAAgAAADmy923xYQd1VGRriTRM+/xm0eILWnv6SLE5mlqpIVolNUYTgXjBYBUjHGpJccJaVtl1sFVbxBHtNT2dXhbznlKxQRxG9IWLGKYF7LjLabdOdNAnnOnls5u1gPoeQ9MlhKnCbhbHIUcoj4snRMIAPt4yPkjnu3fdPbo/ALJM5VWTz02G91AQgCqYyKxlh+xWRlQjWdM4v4OiVe4phwE9kTgFeINiVh/KYF4d5v9Kg1OnzwHFEo/jGep0FJD6mVYkLM1VlygxurpiWxkx1+qvIE97gxc8x9ODHNvhDHIsK/F/ZgPTnZXTPjSxjeMA010+WRr8QWho2VGSiYl21W4ZU7O8PMSaMVdS6dsrYWEj4r6FFPT7VG57EY15a68nCZKWNNd65g9jqGtZMTrqj4n7EmLTAiqt7WH12Y=
+    options :
+     -
+       name : OPT_NEW_TAB
+       identifier : 0x203fd60315c1e7cf
+       internal_properties : CAAAAAgAAACYtMkiQlMtkxQV1ofOsIT/emAbiqccFq5IQbJKFPFhnYN9R9U+nouvwkfmgZws52c7jCx2ljwaibglAVMfbwDguyRibYjJ6JBoW7OmI3r31be/lYO0Z0yY8l6VEEpwQGYXVtqd/WO13xe9Hzwc61h2AaAaMG/ezTG6pmrMGVm1gfw53flCBB1PagvM1NZVRHM44wzej+PpPCIsCu28U5JxpmUAo3+Ud1gvTHCEFauOQJEtGByivbuaz1gR9s89gQltBtNHnQ6ktHoE3fFJIEby/CmxZLybyzrqYWle3GeNbsl6bugP0u8/vbfZHQvZ3gxv3Y6VE+UL7khfgctkEDo56ZCGT3dG3wyBrdG4Ha9TYeBYGMZvKhotPJDA5yitxU+RPVC6gNYiuTxZ/oCStJLn3oKCIayX65yZZf9r64w=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Opens a browser
+            OpenBrowser( "", "", False )
+           type : 32
+     -
+       name : OPT_Separator
+       identifier : 0x203fd60315c2e7cf
+       internal_properties : CAAAAAgAAACv821JqlMCLtm5D5n/BL7dpiwnywTwg0cAcfju4QD+6Igr904wMeF3BhkIIsGDOBWXfAERFZzLMsIXsxdBEmZFoiLmKGVfvQJzef6bhOMIZuPRU6QExC2AfS/6t7387G/NKMSO/HSRsQwBouB/SGqacO9egIujLFKCSXTWUWYN0UOukEbEpGlrpuwKABYyNIOEzE2I6gnu8Q4uOc66jwNxKpd3/iRlZuNcjoQdZepHTxwP5Vx5tcs74l+vyskyAleGl4YrVwcJtoaSZhxX4h16TEuP3jEgJdsrcd9WvMtsW02vdC8GehYM0RxDrrnZAJMwO3DjO9e8uWgIeE7lTDJ2Ew8rTKIQo3m5d5RsuW6oBHf2gftQac/TH05+oywzdFWTNr6e+JjFxOKyctIy
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_HISTORY
+       identifier : 0x203fd60315c3e7cf
+       internal_properties : CAAAAAgAAABbqELLMBEEcSzImIs3DvhLLkb/J3lvPwmn47Te9dRlyKEoFtGYtlVcJVEyB7P8DBNhRBR2vmjwY09EzQLpcizXL8b1siELxbnVY7QIvqR0KvuWaa3AmDXfrPSku6EljHdiB6zFcOcwqd0LuxDRbCbkHmPm3ifvVdqHQp2JBl7AUkfGaJmH+J8wEGdLVrB6pJeIpHn/IwUkoRtU+Oarf2eruIWZvrLN12JcbNKLLgUND1wSbXMKUjlBo+1TfRFuDL5cdF5L+QcJ/Z7aUT1cmWFotdAVkujEzUbg6I1ogedcwQaNz/fetZ/AHphja3uSt9TFQ93fsu6hSGZFKI2B3VXbD+f+XWmEQEq9LjnYYDoeqfMTt5h8N6dZPmWxLwnCFRkudBhRh2imr+fdmXd/KPyjsP0I2Yj0Oss=
+       options :
+        -
+          name : OPT_HISTORY_MANAGEMENT
+          identifier : 0x203fd60315c4e7cf
+          internal_properties : CAAAAAgAAABp+Isq3vBZpbMV68WzRrygt3FYY7ZHfXS3717CnhtDSVRZRUvEzlKxdq3W7ViNWgRwZIgCkAtCKDtxYZcPkxV665BDl4D8od5Q5Cbn3nx6mcynS02/lsLOytc2f25mhxyS4p96Co9OmpBOaHSlneGMsZyqCulc5RCAmQEgg5zE9AGEc/iJM1F2eQkdyYlvhu/PhoO5a9S1oRW7aylhSFgahFELxRnnByuOonC/SnW/EXKingXQrFi0iVFgXBBsZi2Z07pf3p797scqVnsCs9fPzI4OhTg+lZViYIq3jyKSFMqcn981nrbHkWONhTS27OwHOFDWUniJBQD3cRHkTO90/Fi9hAa6PEWWJ6zjWx+MOUqx2RDxjciQ6iexs00LTJsTwfgD8iMaZ/36uAcH8QyNcn3Lu2Xn8jo5RCP83hTmdus=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Opens the history manager
+               ProcessSystemURL( URL_History )
+              type : 32
+        -
+          name : OPT_Separator5
+          identifier : 0x203fd60315c5e7cf
+          internal_properties : CAAAAAgAAAAZK53g1024jSD2UzX69RLkTcz3U+BWCMN6ddZ+fQmf1kGjXwfHapMP060zkX40dDouD55/cg3/ckvIT1nb7RQSpPDOqUJ+sgL+FPSZjJTLS4+0AgcX+HqZVKP1Kyu94E01yQtwhvN9r4DUJ+228FFUoWuSJuXDkLU/AwrfdfxgYJEQ25+r2jXGtgzAOyPFcTTSWQGDf8+KyoAZBmIgUhvtYj1i4yPjCVMT1kLqPuh0l1jB8vukH7g1LbN5HYK+vX/KGWHiqk8wEHu4SmOcNAyIPrwx1LblDKEvOL3xpajcxJeLf/5JqrWOGLL7Feu29SEae/5RjO+nfn5k2/rHIdluX5zE6Z5hKKATlw/gVuNVO51VjV/q0BlfEZ8JNQVJWQjcGQRkCQtfZGp0xd4=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_1
+          identifier : 0x203fd60315c6e7cf
+          internal_properties : CAAAAAgAAAAkbZH3TEV/BWInI3dUR7HGxgdEiE4mA/V/EYwkj3mL0Ia0M9ZQSkxslKBk+FWlrFLkBnJsilZVexRHWo5SlGzqln2vKMyu00vMVKsun0/bzPUFgIyTlMaz/w0zI8SrojJlnXmNNN4ygxswjisFcf640Sr/FijmhhzM/nsnYOghihOuWU4SGXcfFvBGBRpRYneLm/BmmlcUjrykLz+BhqWsgwbqwESkA38WYcJ4QsQT6r3PtiY6zeMkbBp+hC0fe13xsfn0Ab2AwpjKgq5iOpvRCMC/2xYhUbV6qEc8WIR8xQul2k3Ttf7YQt4YOxzKXbh0poUNW9paYlJ5aLmhoq9GhAF53TAD1JApGWz8UqkukiwWKF3MVTevo3Bv6yKccIpPwYM0Rn/ThVe/erQYtDkgqapvgtvA
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_2
+          identifier : 0x203fd60315c7e7cf
+          internal_properties : CAAAAAgAAADVLjX0TbWISkOFEGWqJT0IW/V9PthtvsbEKQTfsgnW30gOqcSbRrusSnTWqe7CbebJBiFoFVHNKs5ViWbSmjpa5pp4WZkpNueauz5C7L8ioYP45BrGLVS+cHa7u9n4TWwbTSP+4uAD8gPBtPjSiddEaIgywWbATQBt1vO+pqSsresa8MMYyMmiH5QcC83PcJ1x73no4E3fkZaCJCbl5gsdH2SFxOdI4OnEeCKjThAIpIbKjxKkh4aejMfC4u63AwrKBWrOJWLKbsU8KIRbih7F+CGMvOtB0wONS2LGf0zNav7qLKgAh9ENwOGSvFbaxOyvYrELIDSZu6pWKM1YVChZqWJDPKpu5clSD64BMGE0olxg3HdEXqF4Z5CPxIZLoVDBHavDUx77tOxHOuV+tm7AUQ==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_3
+          identifier : 0x203fd60315c8e7cf
+          internal_properties : CAAAAAgAAADzlbv6DmEaO2C6Aa16tYXIlCBbvUA2DvH+cb2th2P1lpOnEgeYZg+cznBMDlOQGqpYmzZdNJgL3YKsLqzPlma5bmTtGMV45iKN14sdLCbZU4dMgZYhHb+9buv6+KGuY+i/KvV80lx2Ab4gmB62Ki5opaqPEeryYyFpb/VgmVdhYT2VALyD7OkjyLiRPvQPCU7rT/d43+v0JHtNgrwI+QAiRuEdtFstMJCcX5t8MASBVMzWo4gvTeiZ9w03hmwkN40axX3S9juA4Q4BnDlMBCKGH4k63Qk6s9eXyACYKbw8hDobFTkicPGaCigVzq/+gfV1g64dfv5K95Gv4m/LlW9E+Sa4g66ffm/ih0dKkLMTT/EyUBonm0zw/GIM6TFMQGv5gmODGlpOgnROL7Q=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_4
+          identifier : 0x203fd60315c9e7cf
+          internal_properties : CAAAAAgAAAC6eFdpTWzHjY6czwgvVJaAjYycSvifZZiHB/zPA5T5VHRYx9jU7P1/csWDfOzjhwZ5+MFL71VZgHg2tz/vVXO9KJ5WqquBpgzQAgwPa1tBBVhn8xRhaSfK2jO2j9Thd37xqrRr5q00XpsqeFkKVlpJxm8AcTc6IUWzP9ZKDFRsG96Q5f4IFJwSCRlPvJCbOYsE9PQPalmnc6uPGPXB/fCL3W5JISYc5w0slFI39sh1lkgz8b2bTzjqGXvy7PxKNUMuXQBM+EBTlIO6NzgTX9M4PmsPLXq8ECpCIlq+ftSoQghk8SX7yYw3jEkO854BbFNPXwjEBkOxbje3O1Jxo2UFZN945JcKAOM9HajL864MdAnK0TAyBQxE5TvGWwM4I4iHHReiuR+jtl9W9JOIF60=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_5
+          identifier : 0x203fd60315cae7cf
+          internal_properties : CAAAAAgAAAAR6vFACfE8vmdJpMl+2XnMr0khcuxhusLwxZDxkBvoceYAq1652KEeMLYcW+yUp7A3KFPqi7NjdGQX/0gQxNRcLFQyc7drwxxvzlF5+UwTsJBXTZNPcIulDcFygi7BsnMkiFALB2/CifwQF8sDCmh/iSP3hluPDHzZAr+a8uAAuRdm2BvY0Plaj8x8iyU/WH2Z37loOC3HMWLWgIIZymex42AJQDOEDG1QPC5/AlSUYJKeS+bQAyrCwGt+KDR3Ozr4zTKYVwCUumuQ9Jqh2hYllqEMzo2nfa97J/b0XWw9quTSFKIajW+prvGqINJeQGw7ivm3tCihI8YeqBG08NxR7WrbkA4Cvalm37a99CV4ajCwLKMoAk2kU4yLwLoHbZyNYWeHn8qv6NB77im6ajIEFQ==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_6
+          identifier : 0x203fd60315cbe7cf
+          internal_properties : CAAAAAgAAAArDyaYoieORMGnco2k2Rl1kmfHJWWKYIMOvoOHRaw36pxC4z4GCHWd+BOdDA6bdfw5vrldPfWNMgJoPTOd4f0/dDwCsN30FspJMIhCLpxj9oi8OEs3BjnYTKDnLFo5ezqdROc2k17Ol5+ePIXAiX/NuNlyvwgRXQlUwBu3o7EFcqNByNubS5MvYtEPzGDzaZu0TATH8jGnd6crtImV0eTfUdolZdpYISnASoh3bjA7mvxp53cBQzq4YxMKlFQ2ZdNeA+b2JholkI8EgfQHR/vAVgNvzXqqKuxYl8+J0XHjf9erQAZsvo+Gx6R5zpn2J2pkbtcl69hyq3iqLi1sDNi8IS7PjfQX8ewy7N+aijvvez6BGHn7fIU/4CYxMNhTDvUSoJInJupo/ZYdy8T5hjw=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_7
+          identifier : 0x203fd60315cce7cf
+          internal_properties : CAAAAAgAAAD/wB+u512WxNHf5iCJtwy8hqe8jmzjPhwAm5rJuscll7RW2awPgwwGBkaUcxwcOm/29ksRiWVHgekdV3oVU6jfnN5851Po3TdYibm/3XRAVh3T08skEP73lakLyfR0ietMILgjr4fqETT4f2NrovB3gSuPjtOXBEojwGlYRA4uX9n0zvG6lvsUDyQ8iw3PkB2x3+nYMJ0Pcd5aDK5dHmPlt7x97I+wGKGstK57FqD4wK6WQ/LML0I6FDO2cHy/c/IwhfpAvxis0nNo3HJ5cv4N/nkVMKM2QRvn8U21kQJL5t/vuBCSnUUoykN8+xFBi8dStEkIXLAzre/W3g8i489eUxefTJpuOZ2gjUkvZtPKOH5WN7oHE0wjzJNKg/3uf+jQxmO1DiIzlIDXSoskEJTqew==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_8
+          identifier : 0x203fd60315cde7cf
+          internal_properties : CAAAAAgAAABrbItKAzt+zMkHlpsoo9euCatD1EbLnGBSu6pYxWjB0L/75Ad+p2DZTVGrEnnFaEtg66R7sIrKu70GLptJQU2ngTtvUOyqGyBInYSYGkUcv/n+8qhs8xq4RmApGQcOVzJBA9msCOYRBCFjosbQ98Fa5m6Ar1R+Gxz58g9eQmyIPV8qaEPsGHXGu7C42wkvVEX9h0FYHO0DPfz85uiXVMVXNR7fdgm+HqeC+myFeMbqhkQs2VxWtdz00pFU4LzxoVy8d9Rkm+RQnC/uEmIJxAwfokuWovmTeYEnvRwMpT4r3HBkpi52acd7Sj1+pkjO0JDdNq198kpjA8B+wJseENxd5w4H9qy8a7lo37Y/di1wDkJMwCGWbLMK9e5tJiChy37vw8E91Zx9NmLNsG/AdCh+7w==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_9
+          identifier : 0x203fd60315cee7cf
+          internal_properties : CAAAAAgAAACmdFNlYWSHtS70U442U/yKIjMu7a2OZPNOPn+0HUCOFiFwr1PzloC8yj5oq9UcEHcom9RH2paser5PRDD+cq9GnzTronflzxQfZFllGg4GvD+IvR/DUKSMMilGtCf1RGm7QN/3vK8E/s2iCGZAODFZiRoVLDoNfEZ9yS+JsP/i3ICM4dLbt0wiaXGLISQB6+BdDb+pPAZ9+nv+PBRpWvqOEiA62wQQho5nHy5eBR2WybxM1E+Dz1DyqU00RHwiLxwbWAPpIVnYgLzz1NE8BoBrYw+7Xws1KnNTPdJC+3v/N68XNGGT3BGezXRDcgBj/XCRKyrz0CJTvRr+dpiXr5nNoFNItFXgl2RIAVx7Xi56B676jiMhHidlmuR/Zr8UG4SzzF1aDXP3wlPaCIeEC7E=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_HISTORY_ENTRY_10
+          identifier : 0x203fd60315cfe7cf
+          internal_properties : CAAAAAgAAADyxRSV7oH3vi/ZfBmqK1b0ihEkXePMrdktyJOyr7iytTDEYUnyJrTgabT2TpKLaDbWcTQ5N6FKCRz4B/7F1+qMboy6b6UiJA0IiXj/80UYNgUdW3LOdhG4bnRq47TRjHkbW756xBRqwzbDCoqKHk75G2quG/EpCE84zFaN9Pw5BeXQdrHHxccWvtiIMexPEYFwnjBGa9Uitoouk2MzjqT6r3wrrG/GegJGUvSh5JF7kabfMUBgh3N1q74JV1snINQEeZYDkix4JKpT85++FZWyZZJvyTxTAaeWR2o8cHjBehO7/E1v6LPGSGnq1Sul76/W0ph4w/t+Iw3xe2/TIem0LjYDPpUBvVwPm+AkDwSQS7CFgOccJq16E+5VDNYVD7GAWvl3k1abvNwPO8QdF4/ndg==
+          code_elements :
+           type_code : 26
+           p_codes : []
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Favorites
+       identifier : 0x203fd60315d0e7cf
+       internal_properties : CAAAAAgAAADJq/L4sD0Z3eZG/x9URzmNx0SOjWwtjzGFII0Ge4ZoHbmS90r92exYq8B626VrYWeWruPfD0ja3OsgsHdfMpXh6aDev+WzzXdm9BsKfWsVD7IOOlWP/ybwaSTyRNBetsjyeY0i2jxDIY78GZQ0506yGYea1qGktc4bOYO1zjMv6Aftpjw5r3fI0WMj74mbmP8XdR46h2sdwW9yGuShYSRmfrKGMH/5HINfOSN29fYgibGHOA8LHc9cEV4ezd0cXtovLQWOMNgXSMVI2IfKHzzULkm853xBYnqMYRSoISo+7TkanSoqUNnCL9y3RXZkimqZwhw1CCkoHE5laz2cxSBK816q9HbuBylXHL+NjwjG7sH2rqqaliKABIyY3FzxPMnwI5Aq54RpUllaCDVCrz+Zqb5C
+       options :
+        -
+          name : OPT_FAVORITE_ADD
+          identifier : 0x203fd60315d1e7cf
+          internal_properties : CAAAAAgAAACLluxAHcBYiElMDJog8OazZGxgxaqxZ8kNIdqFZtxlz+TlLAf62V/aVjQ4Qk97FSvzSFKhrZAVwafkDzdJQrp8owQowWXbxvz8Fla9VNnulb2sz8faedwjTsajwYkwAKnA3b+L6eBKb+bjebHeWfEL4MjpOqCaQYHi4GPGAkgEMMB0m/iNa14n9ErBxH/Z9IR4pHJe8fRfgduWAUrMm6ZuiGf/tUnLPQQF/mpOUIrSRvvoAuGsEvoeLeq8I5hnTmtYu4EV1FM252nHfXL5RgKLx8wtgJmaT1+25JrWuscXRRfnxvjWJgj36G28Tq5yoam3hfsL4vuMHvGce3jkmQYNcpzq0aQMOI8ZFx2JlIMA/sfA9TAyey/iM5PG3VGFNGuH8vFZtLWrgk6+bfYJWZJ6Rowyv83w66cB8zF9HJW3+YnIfLI/opfWwXyI
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Adds the tab to favorites
+               FavoriteAddTab()
+              type : 32
+        -
+          name : OPT_FAVORITES_ADD_ALL
+          identifier : 0x203fd60315d2e7cf
+          internal_properties : CAAAAAgAAAAHSsjk9ibLsHkbQYXW0OsTkh5XgwVJcravScRkjE9SFiG6XIOqozh9YZcv8IQhKBazRqt4mgFrtb2IuWIshWNl/9PyCZRK4Gjfh4ZPlte6pF394i67sagP29+0SEouyK2WKoFoY4MGGVuo/8/xUnjF7N1nCqY1DsDqHX81c+TGoZtFoGnfBY4RH9ywtz79n73vBpgqwK+PqsDAwyOnTMRBo2c58PJ5d8N9DzVoQretuOruuN9wQff/2myLfuckzdFoUr31YlXnDOvdbwK5tlquY7K0DXlgFKax3rGYT+mCj5MhpRIvJREt3aeU/GBO1DF9y5mNx3+ApheaP9QYLOeUpS+6bJgsDwL+ZqSkHPpqD2G7vz/shIxa188pPdx3r+Ehyi55HI1iqX0k+hMn1pQCOvBKRMZXyQ1wzAveLAp1nGGyrd401rm6u5i5GeAbJjalhaqmng==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAABPKakwX0SdVtFqh8hsZwbfsSvubMa3R4sJ8EsmiNVJiZvW2NglwnWhEvlP1oyyS5wBvFjUxhoZ3a10Vwjl66dL4mr7Dm5z+133ybF/gwXJ2eiim7L3dq3Mh19kX2QEtCc24rZsK5F0cM+Ss+g=
+              code : |1-
+               
+               tTab is Control <- { ControlTab(MyInternalWindow), indControl }
+               
+               // Lists the tabs
+               let N = 1 
+               let Alias = EnumControl(tTab, N)
+               
+               while Alias <> ""
+               	
+               	// References the browser open in the tab
+               	oBrowser is Control <- tTab[ Alias ].IW_BROWSER
+               	
+               	// Requests the tab to add the loaded site to favorites
+               	oBrowser.FavoriteAddTab()
+               	
+               	// Next tab
+               	N ++
+               	Alias = EnumControl(tTab, N)
+               end
+              type : 32
+        -
+          name : OPT_Separator1
+          identifier : 0x203fd60315d3e7cf
+          internal_properties : CAAAAAgAAAAmeuLgMe65tVg+iBZ+hT/AaQ8oGUfFksaL7Lfn2BhfYwsm+D2TNHwisbptP8D26fDqQybMGE/K9bEw9AOPo2oNENMSjzpeflFUuPmQ1bQ5cvTUl3PQd6Vm+4g/XywRnTjgiVXfSzUkMJdIvTEurZdHq6An6dIkpxVB3FefCKLlyatS1E5UtIkfpuD66H6OLLPssDFQysGIFxAgc6gA7a2bPDH1EDJjGAGewJ4PAygB8XYBT1xX0a8dkI9vCg/6yqkgaTjncW+p7CjOCoiRBmE4ykKSX1uPUTUUvtWkCG5TDGZ8b4bXdaUFuKuDyEy/iQ4snJ020qTP+knBoRG8gRdLSkbaBcMfbNDAxgvtSt07kPtyLWkIV7GX85GRkPGu89YStT0feR9OT3kZ6Vu7
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_FAVORITES_MANAGER
+          identifier : 0x203fd60315d4e7cf
+          internal_properties : CAAAAAgAAAAot92yhsiNaopVp47PomFqZWV41j20iW/65a3itV4vGXBfvjFDHgzeMAnQUWVqGlEHmr+wMineY3vg6R8Bu6LpAAHsoZzfIhblRREORbZItvJMv2RuY+zejHSSJPR4aPJaLiVS7aGmWxBwsAAVrE2zAMquJtOSzsdFRs9jkedqgLc7Cp62bUX1KriIhoHJwn/pvAYCFOh+a79flh1XUUT42h1PITuVaZPxYIBbBiNZ5ILPARSnEkKNamFHMiJFSh43t0hldyxVYy/yTBgypE2nLnfWDaU3Ii1Ql841KjQSH0ASrAAFkZ3/fSPJN3GsFy8i6wzRA8pT93GUh+hwBp4PNi3fsfK/Q0VOaTGVLruzVQSb2h1YrXeFRvK/J4X9ew6s0EAcggdMPkTTTBx/j6LeWPG9cFGdHRntDGROzUdKHiUx
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Opens the favorites manager
+               ProcessSystemURL( URL_Favorites )
+              type : 32
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Separator2
+       identifier : 0x203fd60315d5e7cf
+       internal_properties : CAAAAAgAAAA5n6pTpxGPJqlv7LR8avVCAYwOVI8YvmjXvjs1jDxBkOBSodagSxYG8O4BkP4l1WjQdoqTy4NXKQFrcndYsoeakf1/GxCLmFiBSFOk8/aS279qEYOvR3t6n4qE1xEYAAwIbd++urxPwPBiVjAIe+0khMIR7yvSQSVhs0TUBzxARCKudu+Betn9mBc7cl5C5sLZ1koSf+uMasrYZ7si0KJvu79t+rU4e5eHVW9Rjpgf0wlnh5qk8ED7zf6CyqZ6fIeRm8xhhMx8Xi9fv+LEDGn8uTV/sP7tcKcQ/P5YEb1IITwxNeMpZKZuwqjuVlGKZiF/dle2lWB/z52mgwwv0f6sdUIgOclMN3qxz0APIldJ/EmpBM1mndZJdcAArlamWdGuKq44pQY32/E=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Print
+       identifier : 0x203fd60315d6e7cf
+       internal_properties : CAAAAAgAAAC0soGE0hPCcxZ9ImJHoECgCJohQlvXcPzTkAWm9S9LUHqHyFendoQK75vWjkdmzB5irP9M1lPU7poCVuev49jsCn2DQnN+TI8U2NXeLKRsKWN3XSNMxWkzRtpjl3sLC7wQiW4Nv2lyQ1WHEfdeCem6NRzoy3ozDXr3wQpTRz38unf3NvkKlctwsEoBGxicirwIh+Zgy0iWDnn/HSdrv1XUt6ur24F6AFqoIPxQKblYa0W69d2N1zq68u3osR2w+HWx+jBoJdNlCrqAhelwQ+eyAcplrS9lukU6F74FOt0UNwC/VHBb0e8NoV8h9vOqCqR6XjANdm6POV5A++n1URgh146Z/3w9uoDxNQcnJroiYQrassrWCRT5KsfQyEoHyE/qpmicST5Gv3Ym4h6v4r0aQS6ruaxApbQ=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            Prints()
+           type : 32
+     -
+       name : OPT_Separator3
+       identifier : 0x203fd60315d7e7cf
+       internal_properties : CAAAAAgAAADFKyYvQ+3TggU7mAD49ml29aAiuNNseqyL4v9wqZeyAVG5TsvZOAFrzeHwzyf0htGJXW/YCCz+ShqKUV7BQfQPxtCeqh38N7XWY7rTpE2vsDh5AlSUSEqXwFHjhnIHcTlVGGBve2VSsSnZEWNlLkb19ZESsDA/kDrO3rPTuLzAxKJO1s+h+lk9uDd70h4CJgIZNuoyT9ucunooN+vS4LLfa8+9SoVoyyd3ZX9BhrDXnRU1LZKcxjI1abjMhqIeMN1J5c49yIo2hAdFpcqspEF6OXf5TEKvFj0Y0kQQCXVQKyhvM1OZbjyYNlqgmlXmisObHIWO3SJVMVHoRVCzDeJ6jWTKfUXGxcTduarrxqOFuIVtQAEyyfptqbR0MtJaLSUChnLkCZrDZ00=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Parameters
+       identifier : 0x203fd60315d8e7cf
+       internal_properties : CAAAAAgAAADH6yJEtsKNtcKAytAbDhwWk1LygJZLIcC/T7mxi2O9h3a/Ltp0jT/+WNekTpq+CcwtqGEMOqc2jRQRypohw8EL1l7uMEiDnM/T9EKoj7eNgTd1RVzvwUYn+gv+IxpXgyv/QT0Ftz2Eln1+s+d+V8HfdKVK6Xlfk4qzwiJDJLVpogHNz1dvoVgwCCSW69/IoGyhrJKJJnABeG+TIa34CL614rvAOOmRClWbg+Fi4R5rVqmD3MZ2NE1x3DKW8Z4HxfY379j0Fwv4vTotrZLeGflhx9i8hBv3cT47S5HBrYd8lrwQJRIouv/wOVQokUInlnHtHc6v1PwQLIgid2fOsIQkub/4wLxlEd/zNG9ww5GpfLXDk73QLzZyl2Gsva1OBQ6FB1eQxghk95wBz3jlqhA=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            ProcessSystemURL( URL_Settings )
+           type : 32
+     -
+       name : OPT_EXIT
+       identifier : 0x203fd60315d9e7cf
+       internal_properties : CAAAAAgAAADE9eo68CpAM3jn5RvvYsYK3SAZK7ZIUazqVb2aKlpaWQmw9n255IV/EWmVC4cjkA7LXIkGNwDJt985akV5klf7rWIZPyLUJ7ooDDs6BhXnAS81OQqE/ac5bAiBEcKhTYuveLRhmiaokHUBElCx0d0nKW6tqlVKgaNvrcAZV1+iY24GOtGNOrkjQvS3JloPfkU2dk2CKHoh0lWsyCDpFYoDoAY+lkMCk4hni+QbNk3LUbixB/8itvFWb5qn492nvpbsJS8AZnbURP491+u9LeobZ8+alNJlpv8UpTIhuSgtMcKAEBxtnvvXyjDe5Ern1TtuhXcubTGzjbofflqmTj7FMscEGrSwzpLWnHKSQAIuF7IMqgt241t54wt+kMi3i28dsiZL9Swae8Zu
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Closes parent window
+            Close()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : MENU_LINK
+    identifier : 0x203fd60315dae7cf
+    internal_properties : CAAAAAgAAAAy4bN2wBGE3kPg3xnKzjz9GEJki64sAUZYS8IWiacCRYqOq33TrW+t+W8UYiHVTlX5g0roNlCgWqbunrDCKhi6plJPIFFgms4xT16Y+ILvGqZxIKLPqqb2kC5vM6Ew+mTCDTbBt0KHfylUdSsd2F8ufOZ0dj3fHat6iG4J1EEYo7ceu5q7iuJ8LU1Y1DQAI6vCuOk5J5y5fuW4NpgcS8X8+S/t2GTrNmX+n/agMETu5SwfIUIToJBj7Gu2kTOEqpxDj3/2TEvQFy1zzMDUCTBrH+GwtyOwTlPZcK7yMxhFblNaCB0O5W7p8oHWRdLjDpCvimb5pjosncFXk2Hjax6Bw9Jt3XIf+TjH/88XobsO1ItJeJNCT6KyxWbA0L+j852e9mqhzCgujKP7Q42CeQZUWZEqpSRRTIVACJvB7tuxx1qtDRjL1A==
+    options :
+     -
+       name : OPT_LINK_NEW_TAB
+       identifier : 0x203fd60315dbe7cf
+       internal_properties : CAAAAAgAAABphaoLtdhWBBPgMjexnVW0r3moNflo6SDAxA0MejmqEpdBZcEBfXlXkYs4LiXO/nC0VrnnZAIpOvwkRRMhxyHHabem6xYRvquj9RRdO//3TXEZmVEu9yvCTyri4TjqvLHeE5Rhw62cULG3/35m4OolCyvHiP5xwmORi4fPVBiNj1FuRz/U++FM379fkokvw5Zsp1GBYNeeEhuZveSdfHmjagDJZJblyCvW31c2SmuSlt7R3ZZonaz/OyeBQEZdJXii764HzVxNL7T66K6rN44xvw784SP+vnZgEnBtJ07n1QthYSvavA3szthgwowEm5VvHliiN80JTNNFOAnsYPTzo5QfAYOnvI4nbwMidiwmNapmxmrSXZL+0GZtgYtPZUvAu6xRpBjs8HgELZmvv+8Uid0kbPFMhkFC8ICa2r0=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_LINK_NEW_WINDOW
+       identifier : 0x203fd60315dce7cf
+       internal_properties : CAAAAAgAAACxjv7TttuDUaOLtz4loLrs+YFrq3A8I/Ck7R52PEd4nj72naYzO03QGIS3PBCO7CasllhxajH0+DbwbQ+sHiiXSg/9FtlHBN+AcX755GQ0H2LSR/1q3duRzg6E5zvJK3zPjg5Lmex+MWQVyBplK7Q9fobRRjbuUocL0PKdBElTDWKRhuZ0Iu6tcbq37Y0fBCLURb7j2/zatE6oKYRpLgef5YwD+czofgV1q+3ZgONs1a1xwYiFo5LBgucVTUR0pyPT5TnoKxJLUBjXDuFAGdqbKXDZtyyfpuuooTJ8ODuvX8cQp0c759HanW05/H/LkaP4gTlsqEpBqPMh1MdWRc7SDxo6nJuFimr5wr1NCCp0lO0rwBxy1L4hXadQSWEKBI4ppJBWnwsnNZgxcpHFt94FtQfYvFc4P7rGj3t39RdHYppekg==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Separator4
+       identifier : 0x203fd60315dde7cf
+       internal_properties : CAAAAAgAAAD8hIGTIK6/WPXh0bzkYC2BDCFGF9EWS4KRr7Hr79PomDcYe8A5dQ4BOo+JRNsHSv5TV/Res2KSiqdkYy2KmAFjP/lMvgnPEPdlrl19CtpDHuQxsFmrVLD006DRVc0pz4nOD08ZJNAsezk9kaRMh7mptNWcXwrMVvOjNMkoC+jxDcr8zsyRc1NXEyVZaZnNG33x/0MVo/skCGihMmiyQ5lyskuW0QPgHv03Cu9NDTCnc5ZHtuy0xp3kvKOUWLF+DSyNi92wR2K/QEWXTk/NBaAVXCOmm0MhU43UqoP79bFwf4ehRplSoDuj5L+2XI6LgnTy5jqGIr2TLkiDK+ykaxmsWZcyXyViLzwxzgiyoaKHgFTuJXOK/vy6vVdhs28/tR+LqfYufSdhVsZPILs=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_LINK_SAVE_AS
+       identifier : 0x203fd60315dee7cf
+       internal_properties : CAAAAAgAAABl5QMdnFHfbPISn89+bMUZryLqUDzYeHEnHfxyk0vJvuvEESDKBAGNN85P0NItGCukA71hnoQgGT86Zj6H2oiEMSWTpgsPxrSbWur2O32k5eSEdUXHsrdcuTEiLH71KVJiFDDlttXgFxGaEpFFOG9BfpsSAdh9Hq1j748nN/amCQAaA027tdpuK6iaBCEHQx9xZKZwlOMYI7P5ez0LT3pQlrEDNSAxPVfpq/NJV1fMe9N721PyucBpa1tKVau01g/kwH7uRFiZW4+Kv+HHTeWXJLJNYMay5zWI5Do3UI7m7kGuVl261RsZhw4e56B7uKandjFLcORPbGkwDVoFGw1s53Kqgnp3fGZv3fTvw1b1M/Kdhk6hcijTM28cu/2hs3682kcGtegnAxDTx2ldXFuUcvI=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_LINK_COPY
+       identifier : 0x203fd60315dfe7cf
+       internal_properties : CAAAAAgAAAB8GAVVippP304EBL/hd+VHVns7hvpq+GhmQd4XRV7n9xAPBW6R4v8BKN9Lc6fAMuhX3n+mWrCDi70UauIWRbQQjShQkqp+uGshuVNJsc4k1T5gru/SuSG1TTJUQOtqHK9nC+RFsyncr7sfhBfWt5ngZUf9J7DgpjoH6/ECNkVsfoQRsqybNgqFVYyiy3YwVsW18I1yFEDcGk9ju8nZRj/egchGbZOPp64EslzAMhTAye5psGf1FcNfzi5+vBYBMGbXu6bLHYBSlIrbT5HE8F28DSkM0QXkL3A2KSfa+j9RlpTIObSjwKq1HID2Kw6EAlJp48MnXtn0JfRyXVhY/I3HAg8usVml22F55qqpEdiYPQl30ornaUpg3Dz2rvUtoi18yBSs/I6fvDVKj/1l
+       code_elements :
+        type_code : 26
+        p_codes : []
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : TriggerSearch
+     procedure_id : 1170889736540186559
+     type_code : 14
+     code : |1-
+      // Summary: Starts a search
+      // Syntax:
+      //TriggerSearch (<sSearch> is string)
+      //
+      // Parameters:
+      //	sSearch (ANSI string): Search keywords
+      // Return value:
+      // 	None
+      //
+      procedure TriggerSearch( sSearch is string )
+      
+      // Searches for the default engine
+      let N = DefaultSearchEngines.Seek(asLinear, "ByDefault", True)
+      
+      // No default engine, use the first one in the list
+      if N < 1 then N = 1
+      
+      // Builds the search URL ( UTF )
+      sURL is string = DefaultSearchEngines[ N ].URL.Remplace( "%s", sSearch.VersUTF8().URLEncode(encodeURLFromUTF8) )
+      
+      // Changes URL
+      IW_BROWSER.URL = sURL
+     type : 458752
+   -
+     name : NewHistoryEntry
+     internal_properties : CAAAAAgAAAB1AXFvQ4H6X5WOe3BysglbGAKtepdFCIe1H53fHYHlsGJvKZZLqsFE1PDwWdempa4D7xXrHocMl8Jv0+h5dQuGLBAG7APwLlQUzbueTtJt1DLn8hZYKNnq+FXB6oF3UjDKVHUiWRM4xyUHZ2z5BR9H4gjkPLfm909m083Qbdb6eQ==
+     procedure_id : 1170889736540252095
+     type_code : 14
+     code : |1-
+      // Summary: Stores a new history entry
+      // Syntax:
+      //NewHistoryEntry (<stEntry> is HistoryEntry)
+      //
+      // Parameters:
+      //	stEntry (HistoryEntry): History entry to store
+      // Return value:
+      // 	None
+      //
+      procedure NewHistoryEntry( stEntry is HistoryEntry )
+      
+      // Ignores entry if comes from the history
+      if __Source = ( SourceHistory ) _or_ stEntry.URL = "" then
+      	return
+      end
+      
+      // Checks if it is a system URL
+      if stEntry.URL not [= "://" then
+      	
+      	// Stores entry in the general history
+      	History.Add(stEntry)		
+      	
+      	// Updates the history tab
+      	if ControlExist("IW_HISTORY") then
+      		IW_HISTORY.RefreshHistory()
+      	end
+      	
+      	// Update
+      	HistoryWithoutDuplicate <= History
+      	HistoryWithoutDuplicate.DeleteDuplicate(asMember, "URL")
+      end
+      
+      // If the Back button has not been used
+      if __HistoryIndex = __LocalHistory.Count then
+      	
+      	// Also stores in the local history
+      	__HistoryIndex = __LocalHistory.Add(stEntry)
+      	
+      	if __Source <> SourceOpen then			
+      		BTN_PREVIOUS.Grayed	= False
+      		BTN_NEXT.Grayed		= True
+      	end
+      	
+      else
+      	
+      	// Truncates local history at current index
+      	Dimension(__LocalHistory, __HistoryIndex)		
+      	
+      	// Also stores in the local history
+      	__HistoryIndex = __LocalHistory.Add(stEntry)	
+      	
+      	if __Source <> SourceOpen then
+      		BTN_PREVIOUS.Grayed	= False
+      		BTN_NEXT.Grayed		= True
+      	end
+      end
+     type : 458752
+   -
+     name : ProcessHistoryFavorite
+     internal_properties : CAAAAAgAAAA70H5bhIXKI8wAQbMsHj3hvu98z4qau7+P4bvBZ0cFwvLXzSLNZIsEYsqeS9FEgQTrn+nn3GUab+AZPUaPt/fkfdFF7RyLxctB+kYrpUPqYZvYiY/Bm0wFwZaA26hoZ8Vj/aR7op5T5l5BejaWhZAqKVd7vX8CA3z7zGzYAbe0tw==
+     procedure_id : 1170889736540317631
+     type_code : 14
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // ProcessHistoryFavorite ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure ProcessHistoryFavorite() < delay = 5ms >
+      
+      // Reads the URL again
+      sUrl	is string	= IW_BROWSER.URL
+      
+      // Creates an entry to store in the history
+      stEntry	is HistoryEntry
+      stEntry.Date	= SysDateTime
+      stEntry.icon	= ImageToDataURI( __icon )
+      stEntry.Title	= IW_BROWSER.PageTitle
+      stEntry.URL		= sUrl 
+      
+      // Stores the entry
+      NewHistoryEntry( stEntry )
+      
+      // Tests the URL added as favorite
+      UrlTestFavorite( sUrl )
+      
+      BTN_FAVORITES_ADD.Grayed	= False
+      OPT_FAVORITE_ADD.Grayed		= False
+      
+      // Restores the source of the URL change
+      __Source					= SourceClick
+     type : 458752
+   -
+     name : UrlTestFavorite
+     internal_properties : CAAAAAgAAAAUD9XQvwTSt/rQJlRfNfBtCS8xeXS6ITpSY+V+rTpsDYpKaq2ql3vtZTwxuoWwFogXcOBq64YysUbf8/GgxrDLzkwkxRXtaxui6tFTSBm+tQvXPS58iDZRHZxLV2p8LSq65nYG3tdn/fflSKRIj47pFrnamwLunTQ/Azou5KQLgtBJHo7DrRvYPsuJJGvzbcFQ
+     procedure_id : 1170889736540383167
+     type_code : 14
+     code : |1-
+      // Summary: Processes a URL for favorites
+      // Syntax:
+      //UrlTestFavorite (<sUrl> is string)
+      //
+      // Parameters:
+      //	sUrl (ANSI string): Url to be tested
+      // Return value:
+      // 	None
+      //
+      procedure UrlTestFavorite( sUrl is string )
+      
+      // If the page has already been added to favorites
+      if FavoriteExists( sUrl ) then
+      	
+      	BTN_FAVORITES_ADD.Image		= IMG_IS_FAVORITE
+      	BTN_FAVORITES_ADD.ToolTip	= "Edit favorite"
+      	BTN_FAVORITES_ADD.Note		= favoriteAdded
+      	
+      	// The page has not been added to favorites yet
+      else
+      	BTN_FAVORITES_ADD.Image		= IMG_ADD_FAVORITE
+      	BTN_FAVORITES_ADD.ToolTip	= "Add this page to favorites (Ctrl + D)"
+      	BTN_FAVORITES_ADD.Note		= favoriteUnknown
+      end
+     type : 458752
+   -
+     name : ProcessSystemURL
+     internal_properties : CAAAAAgAAACgVGX1Y7Jqt+XO3JaHT4aZMc+vCWJ4HcxQKwC4YmBG3eIOaupTphtf5dzpsoWYBgCX+KhCa27S6ZYXc4EYxqhbhlwEJX09Y1sGRmVHRJUCYWdr2ZLQPJqNYUjvy5bYIVZ2GqJqYks7KZN3+uOULLHGCwCx1vxY/r8OQOffB3sKl/UwBammIvITRuO5Fl3mPnXk
+     procedure_id : 1170889736540448703
+     type_code : 14
+     code : |1-
+      // Summary: Processes a system URL
+      // Syntax:
+      //ProcessSystemURL (<sUrl> is string)
+      //
+      // Parameters:
+      //	sUrl (ANSI string): URL to be processed
+      // Return value:
+      // 	None
+      //
+      procedure ProcessSystemURL( sUrl is string )
+      
+      // If it is a system URL
+      // Check if there is an open tab with this URL
+      if sUrl [= Prefix_System_URL then
+      	
+      	// Gets the Tab control from the tab
+      	tTab is Control <- { ControlTab(MyInternalWindow), indControl }
+      	
+      	// Lists the tabs
+      	let N = 1 
+      	let Alias = EnumControl(tTab, N)
+      	
+      	while Alias <> ""
+      		
+      		// References the browser open in the tab
+      		oBrowser is Control <- tTab[ Alias ].IW_BROWSER
+      		
+      		// Checks the URL
+      		if oBrowser.__URL = sUrl then
+      			
+      			// Forces the tab to be displayed
+      			tTab			= Alias
+      			return			
+      		end			
+      		
+      		// Next tab
+      		N ++
+      		Alias = EnumControl(tTab, N)
+      	end
+      end
+      
+      // Synchronizes the edit control
+      __URL	= sUrl
+      EDT_BRW	= sUrl
+      EDT_BRW.ExecuteProcess(trtExit)
+      
+      if sUrl ~= URL_Settings
+      	
+      	// Opens the parameters
+      	ShowSettings()
+      	
+      else if sUrl ~= URL_Favorites
+      	
+      	// Opens the favorites
+      	ShowFavorites()
+      	
+      else if sUrl ~= URL_History
+      	
+      	// Opens the history
+      	ShowHistory()
+      	
+      else if sUrl ~= URL_Home
+      	
+      	// Opens the home page
+      	ShowHome()
+      	
+      end
+     type : 458752
+   -
+     name : OpenBrowser
+     internal_properties : CAAAAAgAAAA3EaWf1g1/MgCrTCSPLZ/icw54fZ1TL0TtYBzAwlPS8DzSKIOEseMJdr1zrz8RhKuUt9ndN+3l2TmoYU8X+ccOjI2TZ8sQHp3+v43CcKoEtnt1D88i/C0tiEaUZavawEFlPlT8oZYMUUpMaNnceqVFO/3UYQ+2p7XbecNBX5Gj3uHQxS8M6eXeWgeTloS9wQvSl23n967kbc9f85I0NNlZGFp5s7pQfcyk1eAZkMM/
+     procedure_id : 1170889736540514239
+     type_code : 14
+     code : |1-
+      // Summary: Opens a URL with a new tab
+      // Syntax:
+      //OpenBrowser (<sUrl> is string [, <sAlias> is string [, <bKeepCurrentTab> is boolean [, <bDetachTab> is boolean]]])
+      //
+      // Parameters:
+      //	sUrl (ANSI string): URL to open
+      //	sAlias (ANSI string - default value=""): Alias of this browser
+      //	bKeepCurrentTab (boolean - default value=1): True if the current tab must remain in the foreground, False otherwise
+      //	bDetachTab (boolean - default value=0): True to detach the new tab, False otherwise
+      // Return value:
+      // 	None
+      //
+      procedure OpenBrowser( sUrl is string, sAlias is string = "", local bKeepCurrentTab is boolean = True, bDetachTab is boolean = False ) 
+      
+      sAliasOpen is string
+      
+      if bDetachTab then
+      	
+      	// Opens a new window
+      	WIN_MAIN.OpenSister(sUrl)
+      	bKeepCurrentTab = False
+      	return
+      end
+      
+      MyWindow.DisplayEnabled = False
+      
+      // Gets the Tab control from the tab
+      tTab is Control <- { ControlTab(MyInternalWindow), indControl }
+      
+      // If an alias was specified
+      if sAlias <> "" then
+      	
+      	// Check if there is an open tab with that alias
+      	
+      	// Lists the tabs
+      	let N = 1 
+      	let Alias = EnumControl(tTab, N)
+      	
+      	while Alias <> ""
+      		
+      		// If the alias matches
+      		if Alias ~= sAlias then
+      			
+      			// References the browser open in the tab
+      			oBrowser is Control <- tTab[ Alias ].IW_BROWSER
+      			
+      			// Requests the tab to show the URL
+      			oBrowser.URL = sUrl
+      			
+      			if bKeepCurrentTab = False then
+      				
+      				// Forces the tab to be displayed
+      				tTab		= Alias
+      				sAliasOpen	= Alias
+      			end
+      			
+      			return
+      		end
+      		
+      		// Next tab
+      		N ++
+      		Alias = EnumControl(tTab, N)
+      	end
+      end
+      
+      // Opens a new tab
+      sAliasOpen = tTab.Ouvre( ( sUrl = "" ? "New tab" else "Load..." ), IW_BROWSER, sUrl, sAlias )
+      
+      end:
+      
+      if bKeepCurrentTab then
+      	
+      	// Restores the displayed tab
+      	tTab		= __Pane.alias
+      	sAliasOpen	= __Pane.alias		
+      	
+      end
+      
+      
+      
+      MyWindow.DisplayEnabled = True
+     type : 458752
+   -
+     name : ChangeTabIcon
+     internal_properties : CAAAAAgAAAC1nHREUbd0F0MD/FmSonInUEtZXqO2s5hbGaOhZy9FCgqH/Rp9xFMUumr+Y2kk+dTbp8G35H0aZ9Ch5favX1cscd1J4eif2YcFNpLHMe9e1W80XaN9D8DhpcI8d5SEC6kHGbiv/lKnTh+atd57s+iSqVhE/B6IFAgt3kKbue86OQ==
+     procedure_id : 1170889736540579775
+     type_code : 14
+     code : |1-
+      // Summary: Changes the icon of the tab associated with the browser
+      // Syntax:
+      //ChangeTabIcon (<oFavicon> is Image)
+      //
+      // Parameters:
+      //	oFavicon (Image): Icon image
+      // Return value:
+      // 	None
+      //
+      procedure ChangeTabIcon( local oFavicon is Image )
+      
+      // Resizes the image
+      oFavicon.Resize(16, 16, drHighQuality + drHomotheticCentered)
+      
+      // Creates a slightly larger image to leave a margin between the icon and the title
+      oImageTab is Image
+      oImageTab.Width		= oFavicon.Width + 8
+      oImageTab.Height	= oFavicon.Height
+      
+      // Copies the favicon to the tab image
+      oFavicon.Copy(oImageTab, 0, 0, oFavicon.Width, oFavicon.Height, 0, 0, oFavicon.Width, oFavicon.Height)
+      
+      // Assigns the image to the tab
+      __Pane.Image = oImageTab
+     type : 458752
+   -
+     name : ShowFavorites
+     internal_properties : CAAAAAgAAABK+2Wcy7gGxWJ0dVw7Td9o8IcyP+JhpbQ1OQQoHI3IxeoVdXvrfa3sdaBVnYT8Tq9I/TESCtoYH74skW08n54RjKrqsw1jEhXydYOw0M9EWYYrQhne6X5zUblOXUD/7CtO86UIjyQfZgMGbnWR
+     procedure_id : 1170889736540645311
+     type_code : 14
+     code : |1+
+      // Summary: Displays the favorites
+      // Syntax:
+      // ShowFavorites ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure ShowFavorites()
+      
+      MyWindow.DisplayEnabled	= False
+      
+      // Creates an entry to store in the history
+      stEntry is HistoryEntry
+      stEntry.Date	= SysDateTime
+      stEntry.Title	= "Favorites"
+      stEntry.URL		= URL_Favorites
+      
+      // Stores the entry
+      NewHistoryEntry( stEntry )
+      
+      // Displays the internal system window and hides the browser
+      HTM_BROWSER.Plane		= 1
+      IWC_SYSTEM_TAB.Plane	= 0
+      
+      // As for displaying a page, stores the URL, changes the tab title and icon
+      IW_BROWSER.PageTitle	= "Favorites"
+      ChangeTabIcon( IMG_IS_FAVORITE )
+      
+      // Loads favorites
+      IWC_SYSTEM_TAB.ChangeSourceWindow(IW_FAVORITES)
+      IWC_SYSTEM_TAB.Visible		= True
+      
+      MyWindow.DisplayEnabled		= True
+     type : 458752
+   -
+     name : ShowHistory
+     internal_properties : CAAAAAgAAABK+2Wcy7gGxWJ0dVw7Td9o8IcyP+JhpbQ1OQQoHI3IxeoVdXvrfa3sdaBVnYT8Tq9I/TESCtoYH74skW08n54RjKrqsw1jEhXydYOw0M9EWYYrQhne6X5zUblOXUD/7CtO86UIjyQfZgMGbnWR
+     procedure_id : 1170889736540710847
+     type_code : 14
+     code : |1+
+      // Summary: Displays the history
+      // Syntax:
+      //ShowHistory ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure ShowHistory()
+      
+      MyWindow.DisplayEnabled	= False
+      
+      // Creates an entry to store in the history
+      stEntry is HistoryEntry
+      stEntry.Date	= SysDateTime
+      stEntry.Title	= "History"
+      stEntry.URL		= URL_History
+      
+      // Stores the entry
+      NewHistoryEntry( stEntry )
+      
+      // Displays the internal system window and hides the browser
+      HTM_BROWSER.Plane		= 1
+      IWC_SYSTEM_TAB.Plane	= 0
+      
+      // As for displaying a page, stores the URL, changes the tab title and icon
+      IW_BROWSER.PageTitle	= "History"
+      ChangeTabIcon( IMG_IS_HISTORY )
+      
+      // Loads history
+      IWC_SYSTEM_TAB.ChangeSourceWindow(IW_HISTORY)
+      IWC_SYSTEM_TAB.Visible		= True
+      
+      MyWindow.DisplayEnabled		= True
+     type : 458752
+   -
+     name : FavoriteAddTab
+     procedure_id : 1170889736540776383
+     type_code : 14
+     code : |1+
+      // Summary: Adds the tab to favorites
+      // Syntax:
+      // FavoriteAddTab ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure FavoriteAddTab()
+      
+      pstFavorite	is FavoriteEntry dynamic
+      bAdd		is boolean
+      sTitle		is string	= IW_BROWSER.PageTitle
+      sUrl		is string	= IW_BROWSER.URL
+      
+      // The site has already been added to favorites
+      if BTN_FAVORITES_ADD.Note  <> favoriteUnknown then
+      	
+      	// Finds the favorite
+      	let N = Favorites.Seek(asLinear, "URL", sUrl)
+      	
+      	// If the favorite was found
+      	if N > 0 then
+      		
+      		// Keep a reference on the entry
+      		pstFavorite = Favorites[ N ]
+      	end
+      	
+      end
+      
+      // If the favorite is still unknown
+      if pstFavorite = Null _or_ BTN_FAVORITES_ADD.Note = favoriteUnknown then
+      	
+      	// Creates an entry
+      	stFavorite is FavoriteEntry
+      	stFavorite.Date		= SysDateTime
+      	stFavorite.Name		= sTitle
+      	stFavorite.URL		= sUrl
+      	stFavorite.icon		= ImageToDataURI( __icon )
+      	
+      	// Adds the entry
+      	let N = Favorites.Add(stFavorite)	
+      	
+      	// Keep a reference on the entry
+      	pstFavorite	= Favorites[ N ]
+      	
+      	// Notify the popup that the entry was created
+      	bAdd		= True
+      	
+      end
+      
+      // Opens the add/edit favorites window
+      WIN_FAVORITE.OpenPopupPosition(poAccordingToControl + poRight, BTN_FAVORITES_ADD, pstFavorite, bAdd)
+      
+      // - If the favorite has been deleted	
+      // - If the URL of the favorite has been modified
+      UrlTestFavorite( sUrl )
+      
+      // Saves the favorites
+      SaveFavorites()
+     type : 458752
+   -
+     name : Prints
+     procedure_id : 1170889736540841919
+     type_code : 14
+     code : |1-
+      // Summary: Starts printing the displayed page
+      // Syntax:
+      // Print ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure Prints()
+      
+      // Only web pages can be printed
+      if __URL [= Prefix_System_URL then
+      	return
+      end
+      
+      // Triggers the print job
+      HTM_BROWSER.ExécuteJS([
+      	window.print();
+      ])
+     type : 458752
+   -
+     name : BuildHistoryMenu
+     internal_properties : CAAAAAgAAAD9xv42Ba827ggv74EH90CItiV+K31hEC8lWJoPWH0Hvkr1LxW3ueDKKahiuN48RCZXwbn5DfbLGflJpv8F/q2KX/9vo1jYZp8cNtpTo4kMNA/du6IGVrSxUSQLE86Sx6xgTOyQgKWNfcfnarO5MZrlCEHyH62/s8ohzQzZCcE0d8U6B4b7JRpTnMXdLF/VdeInUeIcScD987uhFWPXNlbYaQ==
+     procedure_id : 1170889736540907455
+     type_code : 14
+     code : |1-
+      // Summary: Builds the history menu
+      // Syntax:
+      // BuildHistoryMenu ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure BuildHistoryMenu()
+      
+      T			is int
+      
+      // Retrieves the history but removes duplicate URLs
+      arrHistory	is array of HistoryEntry <= History
+      arrHistory.DeleteDuplicate(asMember, "URL")
+      
+      MENU_SETTINGS.OPT_HISTORY.OPT_Separator5.Visible = ( arrHistory.Empty = False )
+      
+      // Up to 10 history entries are allowed
+      for i = 1 _to_ 10
+      	
+      	T ++
+      	oOption is Control <- { "OPT_HISTORY_ENTRY_" + i, indControl }
+      	
+      	if T > arrHistory.Count then
+      		oOption.Visible = False
+      		continue
+      	end
+      	
+      	// References the history entry
+      	stEntry is HistoryEntry = arrHistory[ T ]
+      	
+      	// If the URL of the entry is the same as the one displayed in the browser
+      	while stEntry.URL = IW_BROWSER.URL
+      		
+      		// search for the following entry
+      		T ++
+      		
+      		// If there are no more history entries available
+      		if T > arrHistory.Count then
+      			
+      			// Hides the option and continues the iteration
+      			oOption.Visible = False
+      			continue(2)
+      		end 
+      		
+      		stEntry = arrHistory[ T ]			
+      	end
+      	
+      	// Changes the option
+      	oOption.Visible						= True
+      	oOption.grise						= False
+      	oOption.Libellé						= stEntry.Title
+      	oOption.Image						= ( DataURIToImage( stEntry.icon, 16, 16 ) )
+      	
+      	// Modifies the click process on the menu option: generate a procedure call
+      	oOption.Traitement[ trtMenuOption ]	= __OpenUrl( stEntry.URL )			
+      end
+      
+      INTERNAL PROCEDURE __OpenUrl( local sUrl is string )
+      	
+      	// Creates a procedure that will open the tab with the URL
+      	pOpenBrwsr is procedure = __OpenUrlMenuOption
+      	
+      	INTERNAL PROCEDURE __OpenUrlMenuOption()
+      		// Opens a tab with the URL
+      		OpenBrowser( sUrl, "", False )
+      	end
+      	
+      	return pOpenBrwsr
+      end
+     type : 458752
+   -
+     name : OpenBrowserDelay
+     internal_properties : CAAAAAgAAABw9ujjmecqCry7BcJ9TKv8M/x5+/nN8CyCbwN5kFfa8oiPjNcRx9DyF6aXBwmnSmelLpeeqXW5QXruusGVoQgdnJF7CA==
+     procedure_id : 1170889736540972991
+     type_code : 14
+     code : |1-
+      // Summary: Opens a URL with a new tab
+      // Syntax:
+      //OpenBrowserDeleay (<sUrl> is string [, <sAlias> is string [, <bKeepcurrentTab> is boolean [, <bDetachTab> is boolean]]])
+      //
+      // Parameters:
+      //	sUrl (ANSI string): URL to open
+      //	sAlias (ANSI string - default value=""): Alias of this browser
+      //	bKeepCurrentTab (boolean - default value=1): True if the current tab must remain in the foreground, False otherwise
+      //	bDetachTab (boolean - default value=0): True to detach the new tab, False otherwise
+      // Return value:
+      // 	None
+      //
+      procedure OpenBrowserDelay( sUrl is string, sAlias is string = "", local bKeepCurrentTab is boolean = True, bDetachTab is boolean = False ) < delay = 5ms >
+      
+      OpenBrowser( sUrl, sAlias, bKeepCurrentTab, bDetachTab )
+     type : 458752
+   -
+     name : ShowHome
+     internal_properties : CAAAAAgAAABK+2Wcy7gGxWJ0dVw7Td9o8IcyP+JhpbQ1OQQoHI3IxeoVdXvrfa3sdaBVnYT8Tq9I/TESCtoYH74skW08n54RjKrqsw1jEhXydYOw0M9EWYYrQhne6X5zUblOXUD/7CtO86UIjyQfZgMGbnWR
+     procedure_id : 1170889736541038527
+     type_code : 14
+     code : |1-
+      // Summary: Displays home
+      // Syntax:
+      // ShowHome ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure ShowHome()
+      
+      MyWindow.DisplayEnabled	= False
+      
+      // Creates an entry to store in the history
+      stEntry is HistoryEntry
+      stEntry.Date	= SysDateTime
+      stEntry.Title	= "Home"
+      stEntry.URL		= URL_Home
+      
+      // Stores the entry
+      NewHistoryEntry( stEntry )
+      
+      // Displays the internal system window and hides the browser
+      HTM_BROWSER.Plane			= 1
+      IWC_SYSTEM_TAB.Plane		= 0
+      
+      // As for displaying a page, stores the URL, changes the tab title and icon
+      IW_BROWSER.PageTitle		= "Home"
+      ChangeTabIcon( IMG_IS_HOME )
+      
+      // Loads history
+      IWC_SYSTEM_TAB.ChangeSourceWindow(IW_HOME)
+      IWC_SYSTEM_TAB.Visible		= True
+      
+      MyWindow.DisplayEnabled		= True
+     type : 458752
+   -
+     name : ShowSettings
+     internal_properties : CAAAAAgAAABK+2Wcy7gGxWJ0dVw7Td9o8IcyP+JhpbQ1OQQoHI3IxeoVdXvrfa3sdaBVnYT8Tq9I/TESCtoYH74skW08n54RjKrqsw1jEhXydYOw0M9EWYYrQhne6X5zUblOXUD/7CtO86UIjyQfZgMGbnWR
+     procedure_id : 1170889736541104063
+     type_code : 14
+     code : |1-
+      // Sumary: Displays the parameters
+      // Syntax:
+      // DisplayParameters ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure ShowSettings()
+      
+      MyWindow.DisplayEnabled	= False
+      
+      // Creates an entry to store in the history
+      stEntry is HistoryEntry
+      stEntry.Date	= SysDateTime
+      stEntry.Title	= "Settings"
+      stEntry.URL		= URL_Settings
+      
+      // Stores the entry
+      NewHistoryEntry( stEntry )
+      
+      // Displays the internal system window and hides the browser
+      HTM_BROWSER.Plane			= 1
+      IWC_SYSTEM_TAB.Plane		= 0
+      
+      // As for displaying a page, stores the URL, changes the tab title and icon
+      IW_BROWSER.PageTitle		= "Settings"
+      ChangeTabIcon( IMG_IS_SETTINGS )
+      
+      // Loads history
+      IWC_SYSTEM_TAB.ChangeSourceWindow(IW_PARAMETERS)
+      IWC_SYSTEM_TAB.Visible		= True
+      
+      MyWindow.DisplayEnabled		= True
+     type : 458752
+  properties :
+   -
+     name : PageTitle
+     identifier : 0x103fd60301afe7bf
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public PageTitle()
+         return __Title
+        type : 1966080
+      -
+        internal_properties : CAAAAAgAAAC3geF5dzGBcoUGs8xoE0bvLSeGUB4bP1+tXMfq3AEpwYfqqNw9JmUdtoVD2mhWy+SNuEjIhl67fxvq0QKzvbmZkPSt2LT1bd9951Pp0aeTX+6kfbz9aDemrdXu2ZrOfmV0rBD+eedRN4faC1A=
+        code : |1+
+         procedure public PageTitle( sValue is string )
+         
+         __Title = sValue
+         
+         // If a tab is stored
+         if __Pane <> Null then
+         	
+         	// Changes the title of the tab
+         	__Pane.Libellé	= sValue
+         	
+         	// Changes the tooltip as well
+         	__Pane.Bulle	= gFontBold(True) + sValue + gFontBold(False) + CR + IW_BROWSER.Domain
+         	
+         	// Update tab
+         	ExecuteProcess(ControlTab(MyInternalWindow), trtChange)
+         end
+        type : 2031616
+     template_refs : []
+   -
+     name : URL
+     identifier : 0x103fd60301b0e7bf
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public URL()
+         return __URL
+        type : 1966080
+      -
+        internal_properties : CAAAAAgAAAA/YQSHqyHf3HJdDB34dSrWorbP6RK998PQmj4kNgaqfqk5msQRR3FCCLirlqLTdtK9A9v47VU/TyRLe2QuVkj1jHakIwRpCVQw4IBhJ2jnS2hn/p9w2O3qM/8uJJG4geOybAIkPtV9mOE6hKOVvAW/bVNQ+YxHhKZMrKOpZSqxyfaagQnf5BIjIaV5t3VWXKYiVzAwTOSrsMyrLLVsq5/C2PT9JSKC4L2BgP7AJA==
+        code : |1-
+         procedure public URL(Value)
+         
+         // Load a system URL
+         if Value [= Prefix_System_URL then
+         	
+         	// Processes the URL
+         	ProcessSystemURL( Value )		
+         else
+         	
+         	// Force the browser display
+         	IWC_SYSTEM_TAB.ChangeSourceWindow("")
+         	IWC_SYSTEM_TAB.Plane	= 1
+         	HTM_BROWSER.Plane		= 0
+         	
+         	// The URL is already loaded
+         	if Value = __URL _and_  Value <> "" then
+         		
+         		// Update required
+         		HTM_BROWSER.Navigate(htmlRefresh)	
+         	else
+         		
+         		// URL update
+         		__URL	= Value
+         		
+         		// Synchronizes the edit control
+         		EDT_BRW	= __URL
+         		EDT_BRW.ExecuteProcess(trtExit)
+         		
+         		// Displays the page in the browser
+         		HTM_BROWSER = __URL
+         		SetFocus(HTM_BROWSER)
+         	end
+         end
+        type : 2031616
+     template_refs : []
+   -
+     name : Domain
+     identifier : 0x103fd60301b1e7bf
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public Domain()
+         
+         // Extracts the domain
+         sDomain is string = URLExtractPath(IW_BROWSER.URL, urlDomain)
+         
+         // Deletes "www." from the domain name
+         if sDomain [= "www." then
+         	sDomain = sDomain[ 5 to ]
+         end
+         
+         return sDomain
+        type : 1966080
+     template_refs : []
+   -
+     name : WebAlias
+     identifier : 0x103fd60301b2e7bf
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public WebAlias()
+         return __WebAlias
+        type : 1966080
+      -
+        code : |1-
+         procedure public WebAlias( sValue is string )
+         __WebAlias = sValue
+        type : 2031616
+     template_refs : []
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fa3be7f0002a3e8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

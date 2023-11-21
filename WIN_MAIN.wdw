@@ -1,0 +1,131 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_MAIN
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_MAIN
+ identifier : 0x203fd5fc13e2cb3e
+ internal_properties : CAAAAAgAAABdnwyUOD2ZvIckBboHdHANySz0pXFvhRBenuuWOKC2Fr6YxFRtlps0Mqx9u4dAkq38tMJ6UcXdcIiqef/B5T+lWxya1kEaKi71NfJYps1+8UF+93ErqDlS0YPSh0qGwcqRWPw9Dz8yvTUFmfd2cioGcyBg41e9EdGgkE1he5k/D4h0DqM61hJFLjdeJYe+6qig+rAnyyFIfa/EihwiHIALlBiex5v2jbmFAg/EFBv0NPaqcIlyz+NKBAvwRHseu7SchvCrrDBvSfF7F4S/8x9Ny0DwsFUwmKhHjmJ1IPoiMtc5ZRYGdt1Dci9TEIGA7eOia4GLDzWz+/MLzZRDHXdHCZJu8djTzn6BJpZxC5EBA1dtUOVoKBWHRLHPdzebK6385cehGkRqOMUtFZS+3ncrYQZidsMX0rfjKKWUPuYqYI+pHrxMN+fxIWoEuR2xOBRxSsorGlyD7NrSx5J08laO5+EXbprjKkqMIZv1WbnKg6U2qRGspVdV1HqqwmcK5KnW2Ra8fbBjCLowz1mGwJCgBKliyvBqH8pOBxiQMKJ+crdC1odIxzJRlmeEnQaN3S78f0C7TP2Sm5fg4S725D/nYIVgFMOjPLK4YtdK4iDtsvhRTPwiL8D8KeUTIxtJGQk32bjOgBMKnSES77wmozHqKDNMR08Ega3ReKH6
+ properties :
+  width : 800
+  height : 600
+  widthClient : 798
+  heightClient : 568
+ controls :
+  -
+    name : TAB_BROWSER
+    identifier : 0x203fd5fc13e3cb3e
+    internal_properties : CAAAAAgAAABkfKjgPMWzHtohaPRkcgW7q+B65aNv+Cezi1NIP/AExH/ISH6XD4d8uIBL6PUNQ213qE49Phtf7xdtye32oiSCb6ZYt+9Kx/eWh+8FGRvJhz3w/xfK8YHHGaodWFn7YFGl04oT0WY+B2w/FK4MKH6flqKUc4otCli3XQJMB06uZqYzlUsbubRfSK6uCjDvgiAouxkBH/uuaf5uxamddiJpS4FCNHusnLHfK6mfE7CQC4cr/xy9Lax0tKugRW6XxniotdMRi3tbNuzn042Cop6vleJOw8VZXdapOWxmXZBueEOkUa5CiuN7qC97j07cJFup7kvaHwsr2kyvSP9tk4IvnsVqv3Qz0RO5B6BcP1FJvdw1mTafnrYj/YwOouyY4BeoEHPpN0rx7FpZV2pecZRVNpXhMRps3tVHlcNKrgvCbUsOYNg0k2JMlOmxsh92ihv+rcDP/inn9LcQ98BcVO0PZg03Wfe6dzs4AChFPSSuGmjUz99WjAuRL4p847ihlpVqjVAehm0d+D/q/6RvT/sf+bC3QTPVPflBaXNsSKllpEvdLVp7SZ1E5KFrx7/IV7QH1xSXzveqI9YfUluxUOMD15NvdW7bm0mLWwSBcTxlLp20p6uUuwBc+G8lWk6C5GLXS5LrXD5QflezMF//nRtaSq3432diHJbu/hyeoMN+g9zxy7GI2SIkLmfOPdlG1jGIm+NbATavGp8u6BjxH60jnuH0tM+v0vdAgySigjOdhYToxDDH5u099pBD3s4VQKJH6HkGpROTN1X7qM1P65JDwaBCbdJnaRsyEQOblsLP1nRu3wp9fZvMAa3tsWRx29zG7NQZ+aarflKdsCLalHBu3nqsYe6tRfaOanzX6fzD+g7hcSi8t0hduh2qdLe+6pbSBNnR6cTeMRcTf68gcPbucGjKTKhlGD5Re9QnlHeiQP9l/QZ+0EoYGNkPcSHWEgE243TYnN1f+UtTJZki+Zb/yiyAsf5HTlAXrEOpyWkaLgc+FCb9ZkCl32k93M/Wfxth1KplPlg9nYg/tU8/A4ux5/yk6Z5QZUBhw6VLef6llMUVp68e3QF7ZBdvs7FmWV39YKq9zSbsUd67gBcK1upJ8p1xAyYMrchu7khVkdjdy/bZOjSJkyyvLN5UJ7fRwPjbiGxABhFSSe9XfH6UeoIghZ6cV3wHlSibk9sbqddhCdEcJklhk38BsCDoCsxjmR8NxuS33SE/UN2HtuRjydzBguNpb/zalmOw/bpNDsx2jfL8Zt4ayw2SulW0OP0qG8MFoBLy4v8=
+    properties :
+     y : 1
+     width : 799
+     height : 567
+    tabs : []
+    type : 16
+    code_elements :
+     type_code : 24
+     p_codes :
+      -
+        code : |1-
+         
+         // No more open tabs
+         if TAB_BROWSER.Count = 0 then
+         	
+         	// closes the window
+         	Close
+         end
+        type : 236
+      -
+        code : |1-
+         
+         // Retrieves the displayed tab
+         if TAB_BROWSER = "" then return
+         oPane is Control <- TAB_BROWSER[ TAB_BROWSER ]
+         if oPane = Null then return
+         
+         // Changes the title of the window
+         MyWindow.Title = oPane.Libellé + [ " - " ] + "WD browser"
+        type : 17
+  -
+    name : BTN_CTRL_T
+    identifier : 0x203fd5fc13e4cb3e
+    internal_properties : CAAAAAgAAAC6ltsrkF0zk7QaqBFqGbtbZsg/AYvtTirg9HxBhoF5qE0VDFd1XO75/tKCOWTedYe3RPZHzbOYFEUW20HxSns47RFGYtMhfLGA1cC7BmIat4q9OV/OvxtkGmitnU4O6oIoenLAezkSQtYYiDx7oYVaCB4E1mgGC3YCRIW7rQuOhRObXblEAMzs6ROx+YPH2JtUyYH+keJCJqVAHcjtFLsnAjnfN5/13PzUCxC8hu17WyvGjI8DObUSok2209VNn6wd6jO7zdBUY3/ELG89ar9OMcz/MzRLQOikKcQFbLZBtvkd3mrkngUrAieOkDRfBbILHEGadWeoofTQmwwGGarbTZjFPzCTTUq/PojyI4IR6vdFqiViQdRI96Ula+2EX13b1Fap12b3c9BQjbfCvrcbjlwFlfWnA4ok1cUwhGIZ0j15UATq9ZtngXUsk82I47IaxdrQLsurnXUE6Ne2UkainBQboZ3kJtI2dCvHe7+w4Txsa9XUMKPopZxrehcaL0akh4g4vuCrosZV8nnE+SR7jTOJo+MgPXVisNSXrm9ESF76KXbDgf0E6qo7Q6GhJytawxHPAnvG3JxO3kyI6DNLO5FZ9yoVTfjvC3s5dLcHOcec1nOEjr+2E71bXaOBrvYQ0HY5uFBMM1YcOBAQmoKJOzdA3nzl7mhd4ytItlFDRLq/Qgm6+6E4A1EmWk5WcyDjKCkoBwtgZ7mwKp8sxupYUBxX1Ffie9aosRQ0wJbuctA8iJ08Nu9CWqQOs5+o70O0OnGoUu0TVhESfPtma7sb5kn5R+S0MO+qjXcURFWzqtYE0gEjJ6dzif0CkEy1/BrrlSYm9BoQXTUSSv6w+KOJC1ss/oJuFGdbf712W9oDcbKcuBXvvHyK9KjrW/tzHc5HI5PpaDQsXla28Be6g9Tpr6s=
+    properties :
+     y : -60
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Opens a blank tab
+         TAB_BROWSER.Open("New tab", IW_BROWSER, "")
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAAByVqS1PmOLaNNlhPYBTEbstS6J0SpgBaNSo2VOa9gTyiELtzyrIGLqn6mzhvSh3PByq9Iar7PEmwkFe7cnFWCMcoSDOUNv3TjNNcUx2sFJVfCXQLgfJzpEqIHd/JHrvll9i2BRLUPiFVwcVaQ19ZjMlLMH6+Uzgz2btOqy8rEOsGnfHvQwdWC2vD0Jc09vORo57UgCEDWYyCfhowHWXfKoHhxFDBvN5UdOsdLVuatHBGM7pY/RI3u5uPWAHLTnwI/KdsNjYntCDDpX7LBtIwTtJUEjmrFgDWLcFM3/Zw==
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow( gsUrl is string = CommandLine )
+   -
+     code : |1-
+      
+      // If a URL was passed in command line
+      if gsUrl <> "" then
+      	
+      	// Opens a tab with the received URL
+      	TAB_BROWSER.Open("Load...", IW_BROWSER, gsUrl)
+      	
+      else
+      	
+      	// Opens a blank tab
+      	BTN_CTRL_T.ExecuteProcess(trtClick)
+      end
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+     type : 66051
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1fa3ddd7000413f7
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

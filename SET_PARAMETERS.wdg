@@ -1,0 +1,286 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : SET_PARAMETERS
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x103fd60901c6fc12
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : LoadHistory
+     internal_properties : CAAAAAgAAAAbVNowy83iX7zw5q+gzCftlM2HJ1MnjwNC1SSCaZ0YECw9jllPMHAaJNL6hU5nmZ9KaO1pUMd6j+A5fSbvt5cEjWHVXcz7lTvRStgRRQMFFXAtT4IqJkumTLboPc+QF0GLuBUOykkocECbZ/IMOKPJaJ4C/ngiQxwXkAj9CeuUlw==
+     procedure_id : 1170889762312551442
+     type_code : 15
+     code : |1-
+      // Summary: Loads the history
+      // Syntax:
+      //LoadHistory ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure LoadHistory()
+      
+      // Loads the stored data
+      sJSON is string ANSI = LoadParameter("history", "")
+      if sJSON = "" then return
+      
+      // Deserializes the data
+      Deserialize(History, sJSON, psdJSON)
+      
+      case exception:
+      return
+     type : 458752
+   -
+     name : SaveHistory
+     internal_properties : CAAAAAgAAACqmyOPC7TAveb259CvhYumqEX6NXrX2fC1/3r0WDXAj96nrVE3w5noaaoDwZgsvrk0f+GAyswH+lU1utSBWPf6n2UdohLAtUQtPhyfhXgdsrkGhSzvwpWGhBbD1MVw/TR5JlRHTBmYzQJMjhVx
+     procedure_id : 1170889762312616978
+     type_code : 15
+     code : |1-
+      // Summary: Saves the history
+      // Syntax:
+      //SaveHistory ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure SaveHistory()
+      
+      sJSON is string ANSI
+      
+      // Serialize
+      Serialize(History, sJSON, psdJSON)
+      
+      // Save
+      SaveParameter("history", sJSON)
+     type : 458752
+   -
+     name : LoadUserSearchEngines
+     internal_properties : CAAAAAgAAABc4I6fQlFx+Eo2RjSQppcNNZK6SZS+8Mi14kqNsKa16cju6dvqzl0AnC0Ob/GkKMmCMq12+wNgCZS8ed+fXhKhJG2zijX2aG9YMxy4TxJRx6pbiDbS7Ds=
+     procedure_id : 1170889762312682514
+     type_code : 15
+     code : |1-
+      // Summary: Loads the engines
+      // Syntax:
+      //LoadUserSearchEngines ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure LoadUserSearchEngines()
+      
+      // Loads the stored engine
+      sEngine is string	  = LoadParameter("searchEngineSelected", "")
+      
+      case exception:
+      return
+      
+      end:
+      
+      N is int
+      
+      if sEngine = "" then
+      	
+      	// Use the first engine on the list
+      	N = 1
+      else 
+      	
+      	// Searches for the specified engine
+      	N = DefaultSearchEngines.Seek(asLinear, "Name", sEngine)
+      	if N < 1 then N = 1
+      end
+      
+      // Undoes default engine settings
+      for each stEngine of DefaultSearchEngines
+      	stEngine.ByDefault = False
+      end
+      
+      // Sets the selected engine as the default engine
+      DefaultSearchEngines[ N ].ByDefault = True
+     type : 458752
+   -
+     name : SaveUserDefaultEngines
+     procedure_id : 1170889762312748050
+     type_code : 15
+     code : |1-
+      // Summary: Saves the search engines
+      // Syntax:
+      //SaveUserDefaultEngines ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure SaveUserDefaultEngines()
+      
+      sSelectedEngine is string
+      
+      // Searches for the selected engine
+      for each stEngine of DefaultSearchEngines
+      	if stEngine.ByDefault then
+      		sSelectedEngine = stEngine.Name
+      		break
+      	end
+      end
+      
+      // Save
+      SaveParameter("searchEngineSelected", sSelectedEngine)
+     type : 458752
+   -
+     name : LoadFavorites
+     internal_properties : CAAAAAgAAAAo+QIjh7fOAxFLke4fU+GgdPn3fTBEYRshhC2BOuh6BOE3OCS5wKFviwh1dOgpfTXq43Owr51eN+POFOD0jWOrcy2T3X+TzYtHoanXfpESe121glxtLvvJYeJQnZDHuUydrQuRgGKafg6krgI7nA==
+     procedure_id : 1170889762312813586
+     type_code : 15
+     code : |1-
+      // Summary: Loads favorites
+      // Syntax:
+      //LoadFavorites ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure LoadFavorites()
+      
+      sJSON is string ANSI = LoadParameter("favorites", "")
+      if sJSON = "" then return
+      
+      // Deserializes the data
+      Deserialize(Favorites, sJSON, psdJSON)
+      
+      case exception:
+      return
+     type : 458752
+   -
+     name : FavoriteExists
+     internal_properties : CAAAAAgAAABXI38ylYOY0zdfOA0G5pbDjB+t2gc8cifbGSPhZ+9FCkoH/Vo9hBPUOiq+46mkORTb54G3ZP0aZxAhZTavn1csUT0pwUi/+aelVjJnEc++9c+UPYNdL2ABxWJcF3Rka8lneRiPXvLHrt5Ypc5j8yC6UYB8PK5g5GBdJupDF/jYWw==
+     procedure_id : 1170889762312879122
+     type_code : 15
+     code : |1-
+      // Summary: Checks whether a favorite exists
+      // Syntax:
+      //[ <Result> = ] FavoriteExists (<sUrl> is string)
+      //
+      // Parameters:
+      //	sUrl (ANSI string): Url to check
+      // Return value:
+      // 	boolean: True if the favorite exists, False otherwise
+      //
+      procedure FavoriteExists( sUrl is string ) : boolean
+      
+      // Searches for the URL in the favorites
+      if Favorites.Seek(asLinear, "URL", sUrl) > 0 then
+      	return True
+      end
+      
+      return False
+     type : 458752
+   -
+     name : FavoriteDelete
+     internal_properties : CAAAAAgAAADWd4ew5/T8xeL09dy7zd9o8AeyP2JhpTQ1OQQoHI1IRWoVdfvr/S3s9SDVHQR8Tq9IfbESitpYX/5sUa18X97RzOqq882jUlUytUPwEI+EGcZrAlmeKb6zkfkOnYC/LOuOM2VIT2Qp3AVA8ukN
+     procedure_id : 1170889762312944658
+     type_code : 15
+     code : |1-
+      // Summary: Deletes a favorite
+      // Syntax:
+      //FavoriDelete (<sUrl> is string)
+      //
+      // Parameters:
+      //	sUrl (ANSI string): URL of the favorite to delete
+      // Return value:
+      // 	boolean: True if the favorite was deleted, False otherwise
+      //
+      procedure FavoriteDelete( sUrl is string ) : boolean
+      
+      // Searches for the URL in the favorites
+      let N = Favorites.Seek(asLinear, "URL", sUrl)
+      if N > 0 then
+      	
+      	// Deletes the entry
+      	Favorites.Delete(N)
+      	return True
+      end
+      
+      return False
+     type : 458752
+   -
+     name : SaveFavorites
+     procedure_id : 1170889762313010194
+     type_code : 15
+     code : |1-
+      // Summary: Saves the favorites
+      // Syntax:
+      //SaveFavorites ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure SaveFavorites()
+      
+      sJSON is string ANSI
+      
+      // Serialize
+      Serialize(Favorites, sJSON, psdJSON)
+      
+      // Save
+      SaveParameter("favorites", sJSON)
+     type : 458752
+   -
+     name : HistoryDelete
+     internal_properties : CAAAAAgAAABbJ2N36Wvgjb8jqN0edjDTotU3NE/FDUOdO42LEV0ZsIbz9RJ3Lu1QpDSo5bOiUUbns+m/+vv4G6p728wVqW/mPqKELm1qjB62J2HQOMhDWnQhQIBiIl98Qu/3XLN1KDa0Tmt8I3XGET/igDseIBWrpt3LZYdP11cya50Q2wTUVw==
+     procedure_id : 1170889762313075730
+     type_code : 15
+     code : |1-
+      // Summary: Deletes a history entry
+      // Syntax:
+      //HistoryDelete (<dtDateTime> is DateTime, <sUrl> is string)
+      //
+      // Parameters:
+      //	dhDateTime (DateTime): Date and time of the entry
+      //	sUrl (ANSI string): URL
+      // Return value:
+      // 	None
+      //
+      procedure HistoryDelete( local dtDateTime is datetime, sUrl is string )
+      
+      // Searches for the corresponding entry in the history
+      let N = History.Seek(asLinear, "Date;URL", dtDateTime, sUrl)
+      if N > 0 then
+      	
+      	// Deletes the entry found
+      	History.Delete(N)
+      	
+      	// Update
+      	HistoryWithoutDuplicate <= History
+      	HistoryWithoutDuplicate.DeleteDuplicate(asMember, "URL")
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fa412d0000a6754
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

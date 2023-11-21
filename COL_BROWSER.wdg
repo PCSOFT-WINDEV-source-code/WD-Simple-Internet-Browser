@@ -1,0 +1,104 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_BROWSER
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x103fd60701b9f740
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : ImageToDataURI
+     internal_properties : CAAAAAgAAAAsdyAkD8VCXGFw0SU/DU0jXZMqPcRI8eIC8m5YPJD6MpeSemXpnSu8x+Gtl/OW1MLMdNPP6vl+jeg93mpQ0ct1Pvu3B1UMVwym7GgNbT+Z7/DQrf9G/LDabEyeKdKCqtfMa3THi19Pxz0faNMYb92QSuXHTW4tm4sk4ALXjwVVuzY8
+     procedure_id : 1170889753721763663
+     type_code : 15
+     code : |1-
+      // Summary: Saves the icon as URI
+      // Syntax:
+      //[ <Result> = ] ImageToDataURI (<oImage> is Image)
+      //
+      // Parameters:
+      //	oImage (Image): Icon to be converted
+      // Return value:
+      // 	ANSI string: icon URI
+      //
+      procedure ImageToDataURI( oImage is Image )
+      
+      sData is string ANSI
+      
+      // Header
+      sData = "data:image/png;base64,"
+      
+      // Save as PNG and encode in Base64
+      sData += Encode(oImage.SavePNG(inMemory), encodeBASE64NoCR)
+      
+      return sData
+     type : 458752
+   -
+     name : DataURIToImage
+     internal_properties : CAAAAAgAAAB85/3Jt/5awRZerIYXtK6n8Rdy0d37HzIysbpi/OLkfyw4JETUb2qT96DNCj9gUipZ9mhA+SKUIcjz351GopxVsK7EtxuRhaOL3YQWKzydlnxGrE1T8ZUI4rNSpqk3gPvf4QmJgZRuXMSajIp6Vr/AFWqbjEq6zA14qjFEjSt9Jna/TGkmwnKzxwL8C0ILVSk4
+     procedure_id : 1170889753721829199
+     type_code : 15
+     code : |1-
+      // Summary: Converts a dataUri encoded image to a WL image
+      // Syntax:
+      //[ <Result> = ] DataURIToImage (<sData> is string [, <nWidth> is int [, <nHeight> is int]])
+      //
+      // Parameters:
+      //	sData (ANSI string): dataUri encoded data (e.g.: data:image/png;base64,...)
+      //	nWidth (integer - default value=-1): Forces a specific width for the converted image
+      //	nHeight (integer - default value=-1): Forces a specific height for the converted image
+      // Return value:
+      // 	Image: Converted image
+      //
+      procedure DataURIToImage( local sData is string ANSI, nWidth is int = -1, nHeight is int = -1 ) : Image
+      
+      oImage is Image
+      
+      if sData [= "data:image/" then
+      	
+      	// Extracts the data
+      	// Reminder: data is encoded in base64 after the dataUri header:
+      	// data:image/png;base64,XXXX
+      	sDataImage	is string ANSI	= sData[ sData.Position(",") + 1 to ]
+      	
+      	// Decodes the data
+      	bufData		is buffer		= sDataImage.Décode( encodeBASE64NoCR )
+      	if bufData..Size <= 4 then
+      		return oImage
+      	end
+      	
+      	// Decodes and loads the image
+      	oImage = dLoadImage(bufData)
+      	if oImage.Valid = False then
+      		return oImage
+      	end
+      	
+      	// If it is necessary to force new dimensions
+      	if nWidth <> -1 _and_ nHeight <> -1 then
+      		
+      		// Resizes the image
+      		oImage.Resize(nWidth, nHeight, drHomotheticCentered + drHighQuality)			
+      	end
+      end
+      
+      return oImage
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fa531b300200b9b
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
